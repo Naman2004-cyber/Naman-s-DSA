@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0778-swim-in-rising-water](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0778-swim-in-rising-water) |
+| [0912-sort-an-array](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0912-sort-an-array) |
 | [1526-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1526-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [3229-minimum-operations-to-make-array-equal-to-target](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3229-minimum-operations-to-make-array-equal-to-target) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3737-count-subarrays-with-majority-element-i) |
@@ -33,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0778-swim-in-rising-water](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0778-swim-in-rising-water) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0787-cheapest-flights-within-k-stops) |
+| [0912-sort-an-array](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0912-sort-an-array) |
 ## Matrix
 |  |
 | ------- |
@@ -78,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Divide and Conquer
 |  |
 | ------- |
+| [0912-sort-an-array](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0912-sort-an-array) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3737-count-subarrays-with-majority-element-i) |
 ## Segment Tree
 |  |
@@ -86,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Merge Sort
 |  |
 | ------- |
+| [0912-sort-an-array](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0912-sort-an-array) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3737-count-subarrays-with-majority-element-i) |
 ## Counting
 |  |
@@ -95,4 +99,20 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3737-count-subarrays-with-majority-element-i) |
+## Sorting
+|  |
+| ------- |
+| [0912-sort-an-array](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0912-sort-an-array) |
+## Bucket Sort
+|  |
+| ------- |
+| [0912-sort-an-array](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0912-sort-an-array) |
+## Radix Sort
+|  |
+| ------- |
+| [0912-sort-an-array](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0912-sort-an-array) |
+## Counting Sort
+|  |
+| ------- |
+| [0912-sort-an-array](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0912-sort-an-array) |
 <!---LeetCode Topics End-->
