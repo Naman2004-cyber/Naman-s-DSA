@@ -1,7 +1,7 @@
 class Solution {
 public:
     int openLock(vector<string>& deadends, string target) {
-        set<string> st;
+        unordered_set<string> st;
         for(int i = 0 ; i<deadends.size() ; i++)
         {
             if(deadends[i] == "0000") return -1;
