@@ -9,6 +9,7 @@ public:
         }
         queue<string> qt;
         qt.push("0000");
+        st.insert("0000");
         int moves = 0;
         while(!qt.empty())
         {
