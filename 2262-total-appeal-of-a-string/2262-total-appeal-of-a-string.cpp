@@ -11,10 +11,8 @@ public:
     long long appealSum(string s) {
         vector<int> mpp1(26 , -1);
         vector<int> justBefore(s.size() , -1);
-        vector<int> firstOccu(26 , -1);
         for(int i = 0 ;  i<s.size() ; i++)
         {
-            if(firstOccu[s[i]-'a'] == -1) firstOccu[s[i]-'a'] = i;
             justBefore[i] = mpp1[s[i]-'a'];
             mpp1[s[i]-'a'] = i;
         }
