@@ -85,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0752-open-the-lock](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0752-open-the-lock) |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3739-count-subarrays-with-majority-element-ii) |
 ## Divide and Conquer
@@ -133,6 +134,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0752-open-the-lock](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0752-open-the-lock) |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 ## Backtracking
 |  |
@@ -142,4 +144,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0773-sliding-puzzle](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0773-sliding-puzzle) |
+## Sliding Window
+|  |
+| ------- |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 <!---LeetCode Topics End-->
