@@ -1,22 +1,22 @@
 class Solution {
 public:
     vector<long long> minTimeMaxPower(int n, vector<vector<int>>& edges, int power, vector<int>& cost, int source, int target) {
-        vector<vector<pair<int,int>>> adj(n);
+        vector<vector<pair<int,long long>>> adj(n);
         for(int i = 0 ; i<edges.size() ; i++)
         {
-            adj[edges[i][0]].push_back({edges[i][1] , edges[i][2]});
+            adj[edges[i][0]].push_back({edges[i][1],edges[i][2]});
         }
         vector<vector<long long>> distance(n , vector<long long>(power+1 , LLONG_MAX));
-        auto cmp = [](const auto &x, const auto &y) {
-            if(x.first.first != y.first.first)
+        auto cmp = [](const auto &a , const auto &b){
+            if(a.first.first != b.first.first)
             {
-                return x.first.first > y.first.first;
+                return a.first.first > b.first.first;
             }
-            return x.first.second < y.first.second;
+            return a.first.second < b.first.second;
         };
-        priority_queue<pair<pair<long long , long long> , int> , vector<pair<pair<long long , long long> , int>> , decltype(cmp)> pq(cmp);
-        pq.push({{0 , power},source});
+        priority_queue<pair<pair<long long , long long>,int> , vector<pair<pair<long long , long long>,int>> , decltype(cmp)> pq(cmp);
         distance[source][power] = 0;
+        pq.push({{0 , power} , source});
         while(!pq.empty())
         {
             auto it = pq.top();
@@ -30,12 +30,11 @@ public:
             {
                 int newnode = a.first;
                 long long newtime = a.second;
-                long long newpower = currpower;
-                newpower-=cost[currnode];
-                if(newpower >= 0 && (currtime + newtime < distance[newnode][newpower]))
+                long long newpower = currpower - cost[currnode];
+                if(newpower >= 0 && (newtime + currtime < distance[newnode][newpower]))
                 {
-                    distance[newnode][newpower] = currtime + newtime;
-                    pq.push({{distance[newnode][newpower] , newpower} , newnode});
+                    distance[newnode][newpower] = newtime + currtime;
+                    pq.push({{distance[newnode][newpower] , newpower},newnode});
                 }
             }
         }
