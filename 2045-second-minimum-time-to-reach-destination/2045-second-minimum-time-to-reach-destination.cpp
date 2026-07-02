@@ -20,24 +20,15 @@ public:
             pq.pop();
             int currtime = it.first;
             int currnode = it.second;
-            // now there will be waiting time from time node to other node on the basis of whether signal is green or red
-            // divide currtime by change , if even means green and if odd means red
             if(currtime > secondmintime[currnode]) continue;
             if(currnode == n && currtime == secondmintime[currnode]) return currtime;
             int waiting = 0;
             int val = currtime/change;
             if(val%2 != 0)
             {
-                // when green 
                 int whengreen = change * (val+1);
                 waiting = whengreen - currtime;
             }
-            // if(currnode == n)
-            // {
-            //     if(currtime > minTime[currnode]) return currtime;
-
-            // }
-            // if(currtime > minTime[currnode]) continue;
             for(auto &a : adj[currnode])
             {
                 int newnode = a;
@@ -47,8 +38,11 @@ public:
                     int store = minTime[newnode];
                     minTime[newnode] = newtime;
                     pq.push({minTime[newnode] , newnode});
-                    secondmintime[newnode] = store;
-                    pq.push({secondmintime[newnode] , newnode});
+                    if(store < secondmintime[newnode])
+                    {
+                        secondmintime[newnode] = store;
+                        pq.push({secondmintime[newnode] , newnode});
+                    }
                 }
                 else if(newtime > minTime[newnode] && newtime < secondmintime[newnode])
                 {
