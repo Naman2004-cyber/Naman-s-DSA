@@ -16,7 +16,7 @@ public:
             if(nums[r] == minK) last_seen_min = r;
             int flag = 0;
             if(maxi > maxK || mini < minK) flag = 1;
-            if(flag == 0 && mini == minK && maxi == maxK && (last_seen_min >= l && last_seen_min <=r) && (last_seen_max >= l && last_seen_max <=r))
+            if(mini == minK && maxi == maxK && (last_seen_min >= l && last_seen_min <=r) && (last_seen_max >= l && last_seen_max <=r))
             {
                 int findmin = min(last_seen_min , last_seen_max);
                 count+=(findmin-l+1);
