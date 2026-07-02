@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1267-count-servers-that-communicate](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1267-count-servers-that-communicate) |
 | [1526-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1526-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
+| [2302-count-subarrays-with-score-less-than-k](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2302-count-subarrays-with-score-less-than-k) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3229-minimum-operations-to-make-array-equal-to-target](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3229-minimum-operations-to-make-array-equal-to-target) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3286-find-a-safe-walk-through-a-grid) |
@@ -24,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0778-swim-in-rising-water](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0778-swim-in-rising-water) |
+| [2302-count-subarrays-with-score-less-than-k](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2302-count-subarrays-with-score-less-than-k) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2812-find-the-safest-path-in-a-grid) |
 ## Depth-First Search
 |  |
@@ -156,6 +158,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0930-binary-subarrays-with-sum](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0930-binary-subarrays-with-sum) |
+| [2302-count-subarrays-with-score-less-than-k](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2302-count-subarrays-with-score-less-than-k) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3739-count-subarrays-with-majority-element-ii) |
 ## Sorting
@@ -197,6 +200,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0930-binary-subarrays-with-sum](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0930-binary-subarrays-with-sum) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1358-number-of-substrings-containing-all-three-characters) |
+| [2302-count-subarrays-with-score-less-than-k](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2302-count-subarrays-with-score-less-than-k) |
 ## Combinatorics
 |  |
 | ------- |
