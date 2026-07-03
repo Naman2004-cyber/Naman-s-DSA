@@ -1,45 +1,63 @@
 class Solution {
 public:
-    bool doit(int mid , long long k , vector<bool>& online , vector<vector<pair<int,int>>> &adj)
+    bool check(int mid , long long k , vector<bool>& online , vector<vector<pair<int,int>>> adj , vector<int> &topoOrder)
     {
-        vector<long long> mincost(online.size() , LLONG_MAX);
-        priority_queue<pair<long long , int> , vector<pair<long long , int>> , greater<pair<long long , int>>> pq;
-        pq.push({0 , 0});
-        mincost[0] = 0;
-        while(!pq.empty())
+        vector<long long> distance(online.size() , LLONG_MAX);
+        distance[0] = 0;
+        for(int i = 0 ; i<topoOrder.size() ; i++)
         {
-            auto it = pq.top();
-            pq.pop();
-            long long currcost = it.first;
-            int currnode = it.second;
-            if(currcost > mincost[currnode]) continue;
-            if(currnode == online.size()-1) return true;
-            for(auto &a : adj[currnode])
+            int currnode = topoOrder[i];
+            long long currdist = distance[currnode];
+            if(currdist == LLONG_MAX) continue;
+            for(auto &it : adj[currnode])
             {
-                int newnode = a.first;
-                long long newcost = a.second;
-                if(online[newnode] == true && newcost >= mid && (newcost + currcost)<=k && (newcost + currcost < mincost[newnode]))
+                int newnode = it.first;
+                long long newdist = it.second;
+                if(online[newnode] == true && newdist >= mid && (newdist + currdist <= k) && (newdist + currdist < distance[newnode]))
                 {
-                    mincost[newnode] = newcost + currcost;
-                    pq.push({mincost[newnode] , newnode});
+                    distance[newnode] = newdist + currdist;
                 }
-            }
+            }   
         }
+        if(distance[online.size()-1] <= k) return true;
         return false;
+    }
+    void doit(vector<int> &topoOrder , vector<vector<pair<int,int>>> &adj , vector<int> &indegree)
+    {
+        queue<int> qt;
+       for(int i = 0 ; i<indegree.size() ; i++)
+       {
+            if(indegree[i] == 0) qt.push(i);
+       }
+       while(!qt.empty())
+       {
+            int node = qt.front();
+            qt.pop();
+            topoOrder.push_back(node);
+            for(auto &it : adj[node])
+            {
+                indegree[it.first]--;
+                if(indegree[it.first] == 0) qt.push(it.first);
+            }
+       }
     }
     int findMaxPathScore(vector<vector<int>>& edges, vector<bool>& online, long long k) {
         int low = 0;
         int high = 1e9;
         int ans = -1;
         vector<vector<pair<int,int>>> adj(online.size());
+         vector<int> indegree(online.size());
         for(int i = 0 ; i<edges.size() ; i++)
         {
+            indegree[edges[i][1]]++;
             adj[edges[i][0]].push_back({edges[i][1] , edges[i][2]});
         }
+        vector<int> topoOrder;
+        doit(topoOrder , adj , indegree);
         while(low <= high)
         {
             int mid = high - ((high-low)/2);
-            if(doit(mid , k , online , adj))
+            if(check(mid , k , online , adj , topoOrder))
             {
                 ans = mid;
                 low = mid+1;
