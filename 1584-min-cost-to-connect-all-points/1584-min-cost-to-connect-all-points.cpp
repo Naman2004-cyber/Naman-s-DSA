@@ -18,11 +18,8 @@ public:
             st.erase({currx , curry});
             for(auto &it : st)
             {
-                if(it[0] != currx || it[1] != curry)
-                {
-                    int newdist = abs(it[0] - currx) + abs(it[1] - curry);
-                    pq.push({newdist , {it[0] , it[1]}});
-                }
+                int newdist = abs(it[0] - currx) + abs(it[1] - curry);
+                pq.push({newdist , {it[0] , it[1]}});
             }
         }
         return sum;
