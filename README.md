@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0778-swim-in-rising-water](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0778-swim-in-rising-water) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1267-count-servers-that-communicate](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1267-count-servers-that-communicate) |
+| [2492-minimum-score-of-a-path-between-two-cities](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -48,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0787-cheapest-flights-within-k-stops](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1267-count-servers-that-communicate](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1267-count-servers-that-communicate) |
 | [2045-second-minimum-time-to-reach-destination](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2045-second-minimum-time-to-reach-destination) |
+| [2492-minimum-score-of-a-path-between-two-cities](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3286-find-a-safe-walk-through-a-grid) |
 ## Union-Find
@@ -55,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0778-swim-in-rising-water](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0778-swim-in-rising-water) |
 | [1267-count-servers-that-communicate](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1267-count-servers-that-communicate) |
+| [2492-minimum-score-of-a-path-between-two-cities](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2812-find-the-safest-path-in-a-grid) |
 ## Heap (Priority Queue)
 |  |
@@ -99,6 +102,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1514-path-with-maximum-probability](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1514-path-with-maximum-probability) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 | [2045-second-minimum-time-to-reach-destination](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2045-second-minimum-time-to-reach-destination) |
+| [2492-minimum-score-of-a-path-between-two-cities](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3620-network-recovery-pathways](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3620-network-recovery-pathways) |
 | [3970-shortest-path-with-at-most-k-consecutive-identical-characters](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3970-shortest-path-with-at-most-k-consecutive-identical-characters) |
