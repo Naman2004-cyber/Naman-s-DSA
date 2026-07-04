@@ -12,7 +12,6 @@ public:
             sum+=nums[r];
             mpp[nums[r]]++;
             if(mpp[nums[r]] > 1) flag = 1;
-            cout << flag << " " << sum << endl;
             while(flag == 1)
             {
                 
