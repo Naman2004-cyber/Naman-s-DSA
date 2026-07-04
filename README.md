@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1267-count-servers-that-communicate](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1267-count-servers-that-communicate) |
 | [1514-path-with-maximum-probability](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1514-path-with-maximum-probability) |
 | [1526-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1526-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
+| [1584-min-cost-to-connect-all-points](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1584-min-cost-to-connect-all-points) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [2302-count-subarrays-with-score-less-than-k](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2302-count-subarrays-with-score-less-than-k) |
 | [2444-count-subarrays-with-fixed-bounds](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2444-count-subarrays-with-fixed-bounds) |
@@ -57,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0778-swim-in-rising-water](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0778-swim-in-rising-water) |
 | [1267-count-servers-that-communicate](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1267-count-servers-that-communicate) |
+| [1584-min-cost-to-connect-all-points](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1584-min-cost-to-connect-all-points) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2812-find-the-safest-path-in-a-grid) |
 ## Heap (Priority Queue)
@@ -100,6 +102,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0787-cheapest-flights-within-k-stops](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1514-path-with-maximum-probability](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1514-path-with-maximum-probability) |
+| [1584-min-cost-to-connect-all-points](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1584-min-cost-to-connect-all-points) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 | [2045-second-minimum-time-to-reach-destination](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2045-second-minimum-time-to-reach-destination) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
@@ -249,4 +252,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0204-count-primes](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0204-count-primes) |
 | [3618-split-array-by-prime-indices](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3618-split-array-by-prime-indices) |
+## Minimum Spanning Tree
+|  |
+| ------- |
+| [1584-min-cost-to-connect-all-points](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1584-min-cost-to-connect-all-points) |
 <!---LeetCode Topics End-->
