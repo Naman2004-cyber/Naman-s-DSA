@@ -6,12 +6,20 @@ public:
         int done = 0;
         unordered_map<char , int> mpp;
         unordered_map<char , int> mpp1;
-        for(auto &it : t) mpp[it]++;
-        for(auto &it : s) mpp1[it]++;
+        // for(auto &it : t) mpp[it]++;
+        // for(auto &it : s) mpp1[it]++;
         unordered_map<char , int> lastseent;
         unordered_map<char , int> lastseens;
-        for(int i = 0 ; i<t.size() ; i++) lastseent[t[i]] = i;
-         for(int i = 0 ; i<s.size() ; i++) lastseens[s[i]] = i;
+        for(int i = 0 ; i<t.size() ; i++) 
+        {
+            mpp[t[i]]++;
+            lastseent[t[i]] = i;
+        }
+         for(int i = 0 ; i<s.size() ; i++) 
+         {
+             mpp1[s[i]]++;
+            lastseens[s[i]] = i;
+         }
         while(i < s.size() && j < t.size())
         {
             if(s[i] == t[j])
