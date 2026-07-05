@@ -20,7 +20,7 @@ public:
                 if(mpp1[s[i]] == 0) mpp1.erase(s[i]);
                 i++;
             }
-            else if(done == 0 && ((mpp[s[i]] < mpp1[s[i]] && (i == lastseens[s[i]] || lastseent[s[i]] == t.size()-1)) || ( mpp[s[i]] ==  mpp1[s[i]] && lastseent[s[i]] == t.size()-1)))
+            else if(done == 0 && (((mpp[s[i]] < mpp1[s[i]]) && (i == lastseens[s[i]] || lastseent[s[i]] == t.size()-1)) || ( (mpp[s[i]] ==  mpp1[s[i]]) && lastseent[s[i]] == t.size()-1)))
             {
                 done = 1;
                 mpp1[s[i]]--;
