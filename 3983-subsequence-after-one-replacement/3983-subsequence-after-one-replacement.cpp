@@ -1,36 +1,37 @@
 class Solution {
 public:
     bool canMakeSubsequence(string s, string t) {
-        int n = s.size();
-        int m = t.size();
-        vector<int> pref(n , -1);
-        vector<int> suff(n , -1);
-
+        int i = 0;
         int j = 0;
-        for(int i = 0 ; i<n ; i++)
+        int done = 0;
+        unordered_map<char , int> mpp;
+        unordered_map<char , int> mpp1;
+        for(auto &it : t) mpp[it]++;
+        for(auto &it : s) mpp1[it]++;
+        unordered_map<char , int> lastseent;
+        unordered_map<char , int> lastseens;
+        for(int i = 0 ; i<t.size() ; i++) lastseent[t[i]] = i;
+         for(int i = 0 ; i<s.size() ; i++) lastseens[s[i]] = i;
+        while(i < s.size() && j < t.size())
+        {
+            if(s[i] == t[j])
             {
-                while(j < m && t[j] != s[i]) j++;
-                if(j == m) break;
-                pref[i] = j;
-                j++;
+                mpp1[s[i]]--;
+                if(mpp1[s[i]] == 0) mpp1.erase(s[i]);
+                i++;
             }
-        if(pref[n-1] != -1) return true;
-        j = m-1;
-        for(int i = n-1 ; i>=0 ; i--)
+            else if(done == 0 && ((mpp[s[i]] < mpp1[s[i]] && (i == lastseens[s[i]] || lastseent[s[i]] == t.size()-1)) || ( mpp[s[i]] ==  mpp1[s[i]] && lastseent[s[i]] == t.size()-1)))
             {
-                while(j >= 0 && t[j] != s[i]) j--;
-                if(j < 0) break;
-                suff[i] = j;
-                j--;
+                done = 1;
+                mpp1[s[i]]--;
+                if(mpp1[s[i]] == 0) mpp1.erase(s[i]);
+                i++;
             }
-        for(int i = 0 ; i<n ; i++)
-            {
-                int left = (i==0) ? -1 : pref[i-1];
-                if(i > 0 && left == -1) continue;
-                int right = (i == n-1) ? m : suff[i+1];
-                if(i < n-1 && right == -1) continue;
-                if(left+1 < right) return true;
-            }
+            mpp[t[j]]--;
+            if(mpp[t[j]] == 0) mpp.erase(t[j]);
+            j++;
+        }
+        if(i == s.size()) return true;
         return false;
     }
 };
