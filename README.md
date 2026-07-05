@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0912-sort-an-array](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0912-sort-an-array) |
 | [0930-binary-subarrays-with-sum](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0930-binary-subarrays-with-sum) |
 | [1267-count-servers-that-communicate](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1267-count-servers-that-communicate) |
+| [1301-number-of-paths-with-max-score](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1301-number-of-paths-with-max-score) |
 | [1514-path-with-maximum-probability](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1514-path-with-maximum-probability) |
 | [1526-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1526-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1584-min-cost-to-connect-all-points](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1584-min-cost-to-connect-all-points) |
@@ -82,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0773-sliding-puzzle](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0773-sliding-puzzle) |
 | [0778-swim-in-rising-water](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0778-swim-in-rising-water) |
 | [1267-count-servers-that-communicate](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1267-count-servers-that-communicate) |
+| [1301-number-of-paths-with-max-score](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1301-number-of-paths-with-max-score) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3286-find-a-safe-walk-through-a-grid) |
 ## Dynamic Programming
@@ -91,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0773-sliding-puzzle](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0773-sliding-puzzle) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0828-count-unique-characters-of-all-substrings-of-a-given-string](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0828-count-unique-characters-of-all-substrings-of-a-given-string) |
+| [1301-number-of-paths-with-max-score](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1301-number-of-paths-with-max-score) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1526-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1526-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1976-number-of-ways-to-arrive-at-destination) |
