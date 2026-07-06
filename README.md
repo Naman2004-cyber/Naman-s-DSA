@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0064-minimum-path-sum](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0064-minimum-path-sum) |
 | [0204-count-primes](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0204-count-primes) |
+| [0659-split-array-into-consecutive-subsequences](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0659-split-array-into-consecutive-subsequences) |
 | [0752-open-the-lock](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0752-open-the-lock) |
 | [0773-sliding-puzzle](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0773-sliding-puzzle) |
 | [0778-swim-in-rising-water](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0778-swim-in-rising-water) |
@@ -70,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0659-split-array-into-consecutive-subsequences](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0659-split-array-into-consecutive-subsequences) |
 | [0778-swim-in-rising-water](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0778-swim-in-rising-water) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0912-sort-an-array](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0912-sort-an-array) |
@@ -140,6 +142,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0659-split-array-into-consecutive-subsequences](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0659-split-array-into-consecutive-subsequences) |
 | [0846-hand-of-straights](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0846-hand-of-straights) |
 | [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1296-divide-array-in-sets-of-k-consecutive-numbers) |
 | [1526-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1526-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
@@ -159,6 +162,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0659-split-array-into-consecutive-subsequences](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0659-split-array-into-consecutive-subsequences) |
 | [0752-open-the-lock](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0752-open-the-lock) |
 | [0828-count-unique-characters-of-all-substrings-of-a-given-string](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0828-count-unique-characters-of-all-substrings-of-a-given-string) |
 | [0846-hand-of-straights](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0846-hand-of-straights) |
