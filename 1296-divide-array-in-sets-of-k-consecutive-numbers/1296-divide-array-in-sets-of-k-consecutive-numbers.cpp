@@ -1,6 +1,7 @@
 class Solution {
 public:
     bool isPossibleDivide(vector<int>& nums, int k) {
+        if(nums.size()%k != 0) return false;
         sort(nums.begin() , nums.end());
         unordered_map<int , int> mpp;
         for(int i = 0 ; i<nums.size() ; i++) mpp[nums[i]]++;
