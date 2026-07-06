@@ -14,10 +14,6 @@ public:
                 mpp[senders[i]]+=messages[i];
             }
         }
-        // for(auto &it : mpp)
-        // {
-        //     cout << it.first << " ---> " << it.second << endl;
-        // }
         string ans = "";
         int maxi = 0;
         for(auto &it : mpp)
