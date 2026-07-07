@@ -10,24 +10,29 @@ public:
         {
             freq[s[r]-'a']++;
             if(freq[s[r]-'a'] == 1) unique++;
-            while(unique > maxLetters)
+            while(unique > maxLetters || (r-l+1) > minSize)
             {
                 if(freq[s[l]-'a'] == 1) unique--;
                 freq[s[l]-'a']--;
                 l++;
             }
-            int size = r-l+1;
-            int index = l;
-            if(size > maxSize)
+            // int size = r-l+1;
+            // int index = l;
+            // if(size > maxSize)
+            // {
+            //     int diff = size-maxSize;
+            //     index = l+diff;
+            // }
+            // while(((r-index+1) >= minSize) && ((r-index+1) <= maxSize))
+            // {
+                // string str = s.substr(index , r-index+1);
+                // mpp[str]++;
+                // index++;
+            // }
+            if((r-l+1) == minSize)
             {
-                int diff = size-maxSize;
-                index = l+diff;
-            }
-            while(((r-index+1) >= minSize) && ((r-index+1) <= maxSize))
-            {
-                string str = s.substr(index , r-index+1);
+                string str = s.substr(l , r-l+1);
                 mpp[str]++;
-                index++;
             }
             r++;
         }
