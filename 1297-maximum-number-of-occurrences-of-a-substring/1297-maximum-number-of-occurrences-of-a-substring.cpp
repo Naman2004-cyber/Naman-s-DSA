@@ -16,12 +16,6 @@ public:
                 freq[s[l]-'a']--;
                 l++;
             }
-            // int size = r-l+1;
-            // if(size >= minSize && size <= maxSize)
-            // {
-            //     string str = s.substr(l , r-l+1);
-            //     mpp[str]++;
-            // }
             int size = r-l+1;
             int index = l;
             if(size > maxSize)
