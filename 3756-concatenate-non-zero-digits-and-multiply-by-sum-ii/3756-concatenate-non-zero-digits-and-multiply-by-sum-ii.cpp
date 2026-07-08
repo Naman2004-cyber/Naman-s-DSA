@@ -3,11 +3,9 @@ public:
     vector<int> sumAndMultiply(string s, vector<vector<int>>& queries) {
         long long mod = 1e9+7;
         int n = s.size();
-        vector<long long> sumTillIdx(n);
-        vector<long long> numTillIdx(n);
+        vector<long long> sumTillIdx(n) , numTillIdx(n);
         vector<int> nonZeroNums(n);
-        long long sum = 0;
-        long long num = 0;
+        long long sum = 0 , num = 0;
         int countNonZero = 0;
         for(int i = 0 ; i<n ; i++){
             if(s[i] != '0'){
