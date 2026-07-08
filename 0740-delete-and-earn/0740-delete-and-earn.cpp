@@ -22,7 +22,7 @@ public:
             mpp[nums[i]]++;
         }
         sort(use.begin() , use.end());
-        vector<int> dp(100000 , -1);
+        vector<int> dp(use.size() , -1);
         return doit(0 , use , mpp , dp);
     }
 };
