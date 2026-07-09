@@ -1,11 +1,8 @@
 class Solution {
 public:
     vector<bool> pathExistenceQueries(int n, vector<int>& nums, int maxDiff, vector<vector<int>>& queries) {
-        // vector<set<int>> comp;
-        // set<int> st;
-        // st.insert(0);
         int compo = 0;
-        map<int , int> mpp;
+        unordered_map<int , int> mpp;
         mpp[0] = compo;
         for(int i = 1 ; i<nums.size(); i++)
         {
@@ -18,16 +15,6 @@ public:
                 mpp[i] = compo;
             }
         }
-        // comp.push_back(st);
-        // for(int i = 0 ; i<comp.size() ; i++){
-        //     for(auto &it : comp[i]){
-        //         cout << it << " ";
-        //     }
-        //     cout << endl;
-        // }
-        // for(auto &it : mpp){
-        //     cout << it.first << " ---> " << it.second << endl;
-        // }
         vector<bool> ans;
         for(int i = 0 ; i<queries.size() ; i++){
             int u = queries[i][0];
