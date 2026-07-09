@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0846-hand-of-straights](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0846-hand-of-straights) |
 | [0912-sort-an-array](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0912-sort-an-array) |
 | [0930-binary-subarrays-with-sum](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0930-binary-subarrays-with-sum) |
+| [0990-satisfiability-of-equality-equations](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0990-satisfiability-of-equality-equations) |
 | [1267-count-servers-that-communicate](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1267-count-servers-that-communicate) |
 | [1288-remove-covered-intervals](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1288-remove-covered-intervals) |
 | [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1296-divide-array-in-sets-of-k-consecutive-numbers) |
@@ -73,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0778-swim-in-rising-water](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0778-swim-in-rising-water) |
+| [0990-satisfiability-of-equality-equations](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0990-satisfiability-of-equality-equations) |
 | [1267-count-servers-that-communicate](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1267-count-servers-that-communicate) |
 | [1584-min-cost-to-connect-all-points](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1584-min-cost-to-connect-all-points) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
@@ -124,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0787-cheapest-flights-within-k-stops) |
+| [0990-satisfiability-of-equality-equations](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0990-satisfiability-of-equality-equations) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1514-path-with-maximum-probability](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1514-path-with-maximum-probability) |
 | [1584-min-cost-to-connect-all-points](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1584-min-cost-to-connect-all-points) |
@@ -253,6 +256,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0752-open-the-lock](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0752-open-the-lock) |
 | [0828-count-unique-characters-of-all-substrings-of-a-given-string](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0828-count-unique-characters-of-all-substrings-of-a-given-string) |
+| [0990-satisfiability-of-equality-equations](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0990-satisfiability-of-equality-equations) |
 | [1297-maximum-number-of-occurrences-of-a-substring](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1297-maximum-number-of-occurrences-of-a-substring) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
