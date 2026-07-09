@@ -16,13 +16,11 @@ public:
         if(prev1 < nums2[index] && prev2 < nums1[index]){
             ans = min(ans , 1 + doit(index+1 , 1 , nums1 , nums2 , dp));
         }
-
         return dp[index][prevSwap] = ans;
-
     }
     int minSwap(vector<int>& nums1, vector<int>& nums2) {
         int ans = 1e9;
-        vector<vector<int>> dp(100000+1 , vector<int>(2 , -1));
+        vector<vector<int>> dp(nums1.size() , vector<int>(2 , -1));
         // dont swap 0
         ans = min(ans , doit(1 , 0 , nums1 , nums2 , dp));
         // swap 0
