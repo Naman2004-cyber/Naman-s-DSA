@@ -2,7 +2,7 @@ class Solution {
 public:
     vector<bool> pathExistenceQueries(int n, vector<int>& nums, int maxDiff, vector<vector<int>>& queries) {
         int compo = 0;
-        unordered_map<int , int> mpp;
+        vector<int> mpp(n);
         mpp[0] = compo;
         for(int i = 1 ; i<nums.size(); i++)
         {
