@@ -61,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0778-swim-in-rising-water](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0778-swim-in-rising-water) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1267-count-servers-that-communicate](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1267-count-servers-that-communicate) |
+| [1319-number-of-operations-to-make-network-connected](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 ## Breadth-First Search
 |  |
@@ -70,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0778-swim-in-rising-water](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0778-swim-in-rising-water) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1267-count-servers-that-communicate](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1267-count-servers-that-communicate) |
+| [1319-number-of-operations-to-make-network-connected](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [2045-second-minimum-time-to-reach-destination](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2045-second-minimum-time-to-reach-destination) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2812-find-the-safest-path-in-a-grid) |
@@ -80,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0778-swim-in-rising-water](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0778-swim-in-rising-water) |
 | [0990-satisfiability-of-equality-equations](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0990-satisfiability-of-equality-equations) |
 | [1267-count-servers-that-communicate](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1267-count-servers-that-communicate) |
+| [1319-number-of-operations-to-make-network-connected](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1584-min-cost-to-connect-all-points](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1584-min-cost-to-connect-all-points) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2812-find-the-safest-path-in-a-grid) |
@@ -132,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0990-satisfiability-of-equality-equations](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0990-satisfiability-of-equality-equations) |
+| [1319-number-of-operations-to-make-network-connected](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1514-path-with-maximum-probability](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1514-path-with-maximum-probability) |
 | [1584-min-cost-to-connect-all-points](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1584-min-cost-to-connect-all-points) |
