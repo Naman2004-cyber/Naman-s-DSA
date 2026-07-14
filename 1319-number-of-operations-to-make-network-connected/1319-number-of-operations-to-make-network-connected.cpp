@@ -29,11 +29,10 @@ public:
                 doUnion(parentu , parentv , parent , rank);
             }
         }
-        unordered_set<int> st;
+        int components = 0;
         for(int i = 0 ; i<parent.size() ; i++) {
-            find(i , parent);
-            st.insert(parent[i]);
+            if(find(i , parent) == i) components++;
         }
-        return st.size()-1;
+        return components-1;
     }
 };
