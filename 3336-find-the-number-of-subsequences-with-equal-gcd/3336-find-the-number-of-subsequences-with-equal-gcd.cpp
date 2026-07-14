@@ -21,8 +21,9 @@ public:
     }
     int subsequencePairCount(vector<int>& nums) {
         for(int i = 0 ; i<=200 ; i++){
-            for(int j = 0 ; j<=200 ; j++){
+            for(int j = i ; j<=200 ; j++){
                 gcdTable[i][j] = gcd(i , j);
+                gcdTable[j][i] = gcdTable[i][j];
             }
         }
         int seq1 = 0;
