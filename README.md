@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3229-minimum-operations-to-make-array-equal-to-target](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3229-minimum-operations-to-make-array-equal-to-target) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3286-find-a-safe-walk-through-a-grid) |
+| [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3532-path-existence-queries-in-a-graph-i) |
 | [3618-split-array-by-prime-indices](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3618-split-array-by-prime-indices) |
 | [3620-network-recovery-pathways](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3620-network-recovery-pathways) |
@@ -135,6 +136,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2063-vowels-of-all-substrings](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2063-vowels-of-all-substrings) |
 | [2262-total-appeal-of-a-string](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2262-total-appeal-of-a-string) |
 | [3229-minimum-operations-to-make-array-equal-to-target](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3229-minimum-operations-to-make-array-equal-to-target) |
+| [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3620-network-recovery-pathways](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3620-network-recovery-pathways) |
 | [3700-number-of-zigzag-arrays-ii](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3700-number-of-zigzag-arrays-ii) |
 | [3977-minimum-time-to-reach-target-with-limited-power](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3977-minimum-time-to-reach-target-with-limited-power) |
@@ -196,6 +198,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0996-number-of-squareful-arrays](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0996-number-of-squareful-arrays) |
 | [1780-check-if-number-is-a-sum-of-powers-of-three](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1780-check-if-number-is-a-sum-of-powers-of-three) |
 | [2063-vowels-of-all-substrings](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2063-vowels-of-all-substrings) |
+| [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3618-split-array-by-prime-indices](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3618-split-array-by-prime-indices) |
 | [3700-number-of-zigzag-arrays-ii](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3700-number-of-zigzag-arrays-ii) |
 | [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
@@ -336,6 +339,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0204-count-primes) |
+| [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3618-split-array-by-prime-indices](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3618-split-array-by-prime-indices) |
 ## Minimum Spanning Tree
 |  |
