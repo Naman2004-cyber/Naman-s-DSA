@@ -20,7 +20,7 @@ public:
         return node->val + max(left , right);
     }
     int maxPathSum(TreeNode* root) {
-        if(root->left == NULL && root->right == NULL) return root->val;
+        // if(root->left == NULL && root->right == NULL) return root->val;
         doit(root);
         return maxi;
     }
