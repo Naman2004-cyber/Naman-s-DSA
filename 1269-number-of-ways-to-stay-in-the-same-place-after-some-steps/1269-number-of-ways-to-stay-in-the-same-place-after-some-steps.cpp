@@ -7,10 +7,9 @@ public:
             if(index == 0) return 1;
             return 0;
         }
+        if(index > steps-currSteps) return 0;
         if(dp[index][currSteps] != -1) return dp[index][currSteps];
-        int left = 0;
-        int right = 0;
-        int stay = 0;
+        int left = 0 , right = 0 , stay = 0;
         if(index-1 >= 0) left = left + doit(index-1 , currSteps+1 , arrLen , steps);
         if(index+1 < arrLen) right = right + doit(index+1 , currSteps+1 , arrLen , steps);
         stay = stay + doit(index , currSteps+1 , arrLen , steps);
