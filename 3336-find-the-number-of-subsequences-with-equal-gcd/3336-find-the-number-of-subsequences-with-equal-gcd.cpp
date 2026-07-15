@@ -1,6 +1,7 @@
 class Solution {
 public:
-    int dp[201][201][201];
+    int curr[201][201];
+    int prev[201][201];
     int gcdTable[201][201];
     int mod = 1e9+7;
     int subsequencePairCount(vector<int>& nums) {
@@ -14,10 +15,10 @@ public:
         for(int i = 0 ; i<=200 ; i++){
             for(int j = 0 ; j<=200 ; j++){
                 if(i == j && i != 0){
-                    dp[n][i][j] = 1;
+                    prev[i][j] = 1;
                 }
                 else{
-                    dp[n][i][j] = 0;
+                    prev[i][j] = 0;
                 }
             }
         }
@@ -27,13 +28,14 @@ public:
                     int newSeq1 = gcdTable[i][nums[index]];
                     int newSeq2 = gcdTable[j][nums[index]];
                     int ans = 0;
-                    ans = (ans + dp[index+1][newSeq1][j])%mod;
-                    ans = (ans + dp[index+1][i][newSeq2])%mod;
-                    ans = (ans + dp[index+1][i][j])%mod;
-                    dp[index][i][j] = ans;
+                    ans = (ans + prev[newSeq1][j])%mod;
+                    ans = (ans + prev[i][newSeq2])%mod;
+                    ans = (ans + prev[i][j])%mod;
+                    curr[i][j] = ans;
                 }
             }
+            swap(curr , prev);
         }
-        return dp[0][0][0];
+        return prev[0][0];
     }
 };
