@@ -10,13 +10,13 @@ public:
                                        {'*' , '0' , '#'}};
         for(int i = 0 ; i<4 ; i++){
             for(int j = 0 ; j<3 ; j++){
-                dp[i][j][n] = 1;
+                if(matrix[i][j] != '*' && matrix[i][j] != '#') dp[i][j][n] = 1;
             }
         }
-
         for(int index =  n-1; index>=0 ; index--){
             for(int i = 0 ; i<4 ; i++){
                 for(int j = 0 ; j<3 ; j++){
+                    if(matrix[i][j] == '*' || matrix[i][j] == '#') continue;
                     int ans = 0;
                     for(int k = 0 ; k<dir.size() ; k++){
                         int newx = dir[k].first + i;
@@ -29,7 +29,6 @@ public:
                 }
             }
         }
-
         int finalans = 0;
         for(int i = 0 ; i<4 ; i++){
             for(int j = 0 ; j<3 ; j++){
