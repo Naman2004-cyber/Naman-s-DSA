@@ -4,7 +4,7 @@ public:
     int mod = 1e9+7;
     vector<pair<int , int>> dir = {{-2,1},{-1,2},{1,2},{2,1},{2,-1},{1,-2},{-1,-2},{-2,-1}};
     int doit(int currx , int curry , vector<vector<char>> &matrix , int index , int n){
-        if(index == n-1) return 1;
+        if(index == n) return 1;
         if(dp[currx][curry][index] != -1) return dp[currx][curry][index];
         int ans = 0;
         for(int i = 0 ; i<dir.size() ; i++){
@@ -26,7 +26,7 @@ public:
         for(int i = 0 ; i<4 ; i++){
             for(int j = 0 ; j<3 ; j++){
                 if(matrix[i][j] != '*' && matrix[i][j] != '#'){
-                    int use = doit(i , j , matrix , 0 , n);
+                    int use = doit(i , j , matrix , 1 , n);
                     finalans = (finalans + use)%mod;
                 }   
             }
