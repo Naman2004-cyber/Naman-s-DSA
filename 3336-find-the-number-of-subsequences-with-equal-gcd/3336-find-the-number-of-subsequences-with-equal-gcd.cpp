@@ -1,42 +1,25 @@
 class Solution {
 public:
+    int dp[201][201][201];
+    int mod = 1e9+7;
+    int doit(int index , vector<int>& nums , int seq1 , int seq2){
+        if(index == nums.size()){
+            if(seq1 == seq2 && seq1 != 0) return 1;
+            return 0;
+        }
+        if(dp[index][seq1][seq2] != -1) return dp[index][seq1][seq2];
+        int take1 = 0 , take2 = 0 , skip = 0;
+        int newSeq1 = gcd(seq1 , nums[index]);
+        int newSeq2 = gcd(seq2 , nums[index]);
+        take1 = take1 + doit(index+1 , nums , newSeq1 , seq2);
+        take2 = take2 + doit(index+1 , nums , seq1 , newSeq2);
+        skip = skip + doit(index+1 , nums , seq1 , seq2);
+        return dp[index][seq1][seq2] = ((take1 + take2)%mod + skip)%mod;
+    }
     int subsequencePairCount(vector<int>& nums) {
-        int mod = 1e9+7;
-        int gcdTable[201][201];
-        for(int i = 0 ; i<=200 ; i++){
-            for(int j = i ; j<=200 ; j++){
-                gcdTable[i][j] = gcd(i , j);
-                gcdTable[j][i] = gcdTable[i][j];
-            }
-        }
-        int n = nums.size();
-        int dp[201][201][201];
-        for(int i = 0 ; i<=200 ; i++){
-            for(int j = 0 ; j<=200 ; j++){
-                if(i ==  j && i != 0){
-                    dp[n][i][j] = 1;
-                }
-                else{
-                    dp[n][i][j] = 0;
-                }
-            }
-        }
-
-        for(int i = n-1 ; i>=0 ; i--){
-            for(int j = 200 ; j>=0 ; j--){
-                for(int k = 200 ; k>=0 ; k--){
-                    int use1 = gcdTable[j][nums[i]];
-                    int use2 = gcdTable[k][nums[i]];
-                    long long ans = 0;
-                    ans = (ans + dp[i+1][use1][k])%mod;
-                    ans = (ans + dp[i+1][j][use2])%mod;
-                    ans = (ans + dp[i+1][j][k])%mod;
-                    dp[i][j][k] = ans;
-                }
-            }
-        }
-
-        return dp[0][0][0];
-
+        int seq1 = 0;
+        int seq2 = 0;
+        memset(dp , -1 , sizeof(dp));
+        return doit(0 , nums , seq1 , seq2);
     }
 };
