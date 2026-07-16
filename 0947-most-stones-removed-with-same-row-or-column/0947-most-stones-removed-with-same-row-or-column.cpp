@@ -1,9 +1,9 @@
 class Solution {
 public:
-    void doit(int stone , vector<vector<int>>& stones , vector<int> &visited){
-        visited[stone] = 1;
+    void doit(int index , vector<vector<int>>& stones , vector<int> &visited){
+        visited[index] = 1;
         for(int i = 0 ; i<stones.size() ; i++){
-            if(visited[i] == 0 && (stones[stone][0] == stones[i][0] || stones[stone][1] == stones[i][1])){
+            if(visited[i] == 0 && (stones[i][0] == stones[index][0] || stones[i][1] == stones[index][1])){
                 doit(i , stones , visited);
             }
         }
@@ -17,6 +17,6 @@ public:
                 components++;
             }
         }
-        return stones.size()-components;
+        return stones.size() - components;
     }
 };
