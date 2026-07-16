@@ -6,21 +6,20 @@ public:
         visited[index] = 1;
         int r = stones[index][0];
         int c = stones[index][1];
-        auto rowList = rows[r];
+        auto rowList = move(rows[r]);
         rows.erase(r);
         for(auto &it : rowList){
             if(visited[it] == 0){
                 doit(it , stones , visited);
             }
         }
-        auto colList = columns[c];
+        auto colList = move(columns[c]);
         columns.erase(c);
         for(auto &it : colList){
             if(visited[it] == 0){
                 doit(it , stones , visited);
             }
         }
-        columns.erase(stones[index][1]);
     }
     int removeStones(vector<vector<int>>& stones) {
         for(int i = 0 ; i<stones.size() ; i++){
