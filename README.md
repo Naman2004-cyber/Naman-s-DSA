@@ -60,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0098-validate-binary-search-tree](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0098-validate-binary-search-tree) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0684-redundant-connection](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0684-redundant-connection) |
 | [0778-swim-in-rising-water](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0778-swim-in-rising-water) |
@@ -373,11 +374,17 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Tree
 |  |
 | ------- |
+| [0098-validate-binary-search-tree](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0098-validate-binary-search-tree) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0124-binary-tree-maximum-path-sum) |
 | [2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
 ## Binary Tree
 |  |
 | ------- |
+| [0098-validate-binary-search-tree](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0098-validate-binary-search-tree) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0124-binary-tree-maximum-path-sum) |
 | [2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0098-validate-binary-search-tree](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0098-validate-binary-search-tree) |
 <!---LeetCode Topics End-->
