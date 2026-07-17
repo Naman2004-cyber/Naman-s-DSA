@@ -28,17 +28,15 @@ public:
             vector<int> sorted = arr;
             sort(sorted.begin() , sorted.end());
             unordered_map<int , int> mpp;
-            for(int i = 0 ; i<sorted.size() ; i++) mpp[sorted[i]] = i;
-            while(true){
-                int flag = 0;
-                for(int i = 0 ; i<arr.size() ; i++){
-                    if(arr[i] != sorted[i]){
-                        flag = 1;
-                        finalcount++;
-                        swap(arr[i] , arr[mpp[arr[i]]]);
-                    }
+            for(int i = 0 ; i<arr.size() ; i++) mpp[arr[i]] = i;
+            for(int i = 0 ; i<arr.size() ; i++){
+                if(arr[i] != sorted[i]){
+                    finalcount++;
+                    int correct = mpp[sorted[i]];
+                    mpp[sorted[i]] = i;
+                    mpp[arr[i]] = correct;
+                    swap(arr[i] , arr[correct]);
                 }
-                if(flag == 0) break;
             }
         }
         return finalcount;
