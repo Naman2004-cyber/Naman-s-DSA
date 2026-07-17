@@ -6,11 +6,11 @@ public:
         int count = 0;
         int total = s.size();
         for(auto &it : mpp){
-            int val = it.second;
-            while(val >= 3){
-                int a = val/3;
-                total-=(a*2);
-                val = val - (a*2);
+            if(it.second%2 == 0){
+                total-=(it.second-2);
+            }
+            else{
+                total-=(it.second-1);
             }
         }
         return total;
