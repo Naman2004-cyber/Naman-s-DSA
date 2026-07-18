@@ -11,12 +11,16 @@
  */
 class Solution {
 public:
-    bool doit(TreeNode* node , long long low , long long high){
+    long long prev = LLONG_MIN;
+    bool doit(TreeNode* node){
         if(node == NULL) return true;
-        if(node->val <= low || node->val >= high) return false;
-        return doit(node->left , low , node->val) && doit(node->right , node->val , high);
+        bool left = doit(node->left);
+        if(node->val <= prev) return false;
+        prev = node->val;
+        bool right = doit(node->right);
+        return left && right;
     }
     bool isValidBST(TreeNode* root) {
-        return doit(root , LLONG_MIN , LLONG_MAX);
+        return doit(root);
     }
 };
