@@ -15,6 +15,7 @@ public:
     bool doit(TreeNode* node){
         if(node == NULL) return true;
         bool left = doit(node->left);
+        if(left == false) return false;
         if(node->val <= prev) return false;
         prev = node->val;
         bool right = doit(node->right);
