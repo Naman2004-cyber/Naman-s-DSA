@@ -4,20 +4,18 @@ public:
         int n = rating.size();
         int count = 0;
         for(int i = 0 ; i<n ; i++){
-            int countSmallRight = 0;
-            int countLargeRight = 0;
+            int smallRight = 0 , largeRight = 0;
             for(int j = i+1 ; j<n ; j++){
-                if(rating[j] > rating[i]) countLargeRight++;
-                if(rating[j] < rating[i]) countSmallRight++;
+                if(rating[j] > rating[i]) largeRight++;
+                if(rating[j] < rating[i]) smallRight++;
             }
-            int countSmallLeft = 0;
-            int countLargeLeft = 0;
+            int smallLeft = 0;
+            int largeLeft = 0;
             for(int j = 0 ; j<i ; j++){
-                if(rating[j] > rating[i]) countLargeLeft++;
-                if(rating[j] < rating[i]) countSmallLeft++;
+                if(rating[j] > rating[i]) largeLeft++;
+                if(rating[j] < rating[i]) smallLeft++;
             }
-            count+=(countSmallLeft * countLargeRight);
-            count+=(countLargeLeft * countSmallRight);
+            count+=((smallLeft * largeRight) + (largeLeft * smallRight));
         }
         return count;
     }
