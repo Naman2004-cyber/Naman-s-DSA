@@ -69,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0098-validate-binary-search-tree](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0098-validate-binary-search-tree) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0508-most-frequent-subtree-sum](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0508-most-frequent-subtree-sum) |
+| [0606-construct-string-from-binary-tree](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0606-construct-string-from-binary-tree) |
 | [0684-redundant-connection](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0684-redundant-connection) |
 | [0778-swim-in-rising-water](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0778-swim-in-rising-water) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0787-cheapest-flights-within-k-stops) |
@@ -320,6 +321,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0606-construct-string-from-binary-tree](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0606-construct-string-from-binary-tree) |
 | [0752-open-the-lock](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0752-open-the-lock) |
 | [0828-count-unique-characters-of-all-substrings-of-a-given-string](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0828-count-unique-characters-of-all-substrings-of-a-given-string) |
 | [0990-satisfiability-of-equality-equations](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0990-satisfiability-of-equality-equations) |
@@ -408,6 +410,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0124-binary-tree-maximum-path-sum](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0429-n-ary-tree-level-order-traversal](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0429-n-ary-tree-level-order-traversal) |
 | [0508-most-frequent-subtree-sum](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0508-most-frequent-subtree-sum) |
+| [0606-construct-string-from-binary-tree](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0606-construct-string-from-binary-tree) |
 | [0814-binary-tree-pruning](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0814-binary-tree-pruning) |
 | [1261-find-elements-in-a-contaminated-binary-tree](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1261-find-elements-in-a-contaminated-binary-tree) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1373-maximum-sum-bst-in-binary-tree) |
@@ -418,6 +421,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0098-validate-binary-search-tree](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0098-validate-binary-search-tree) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0508-most-frequent-subtree-sum](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0508-most-frequent-subtree-sum) |
+| [0606-construct-string-from-binary-tree](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0606-construct-string-from-binary-tree) |
 | [0814-binary-tree-pruning](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0814-binary-tree-pruning) |
 | [1261-find-elements-in-a-contaminated-binary-tree](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1261-find-elements-in-a-contaminated-binary-tree) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1373-maximum-sum-bst-in-binary-tree) |
