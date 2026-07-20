@@ -1,7 +1,7 @@
 class Solution {
 public:
     vector<vector<long long>> distance{26 , vector<long long>(26 , LLONG_MAX)};
-    void doit(int source , vector<vector<pair<int,int>>> &adj){
+    void doit(int source , vector<vector<pair<int,long long>>> &adj){
         priority_queue<pair<long long , int> , vector<pair<long long,int>> , greater<pair<long long ,int>>> pq;
         distance[source][source] = 0;
         pq.push({0 , source});
@@ -22,7 +22,7 @@ public:
         }
     }
     long long minimumCost(string source, string target, vector<char>& original, vector<char>& changed, vector<int>& cost) {
-        vector<vector<pair<int,int>>> adj(26);
+        vector<vector<pair<int,long long >>> adj(26);
         for(int i = 0 ; i<original.size() ; i++){
             adj[original[i]-'a'].push_back({changed[i]-'a' , cost[i]});
         }
