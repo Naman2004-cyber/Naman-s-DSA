@@ -1,21 +1,18 @@
 class Graph {
 public:
-    vector<vector<int>> useEdges;
-    int size;
+    vector<vector<pair<int , int>>> adj;
     Graph(int n, vector<vector<int>>& edges) {
-        useEdges = edges;
-        size = n;
+        adj.resize(n);
+        for(int i = 0 ; i<edges.size() ; i++){
+            adj[edges[i][0]].push_back({edges[i][1] , edges[i][2]});
+        }
     }
     void addEdge(vector<int> edge) {
-        useEdges.push_back(edge);
+        adj[edge[0]].push_back({edge[1] , edge[2]});
     }
     int shortestPath(int node1, int node2) {
-        vector<vector<pair<int , int>>> adj(size);
-        for(int i = 0 ; i<useEdges.size() ; i++){
-            adj[useEdges[i][0]].push_back({useEdges[i][1] , useEdges[i][2]});
-        }
         priority_queue<pair<int , int> , vector<pair<int , int>> , greater<pair<int , int>>> pq;
-        vector<int> distance(size , INT_MAX);
+        vector<int> distance(adj.size() , INT_MAX);
         distance[node1] = 0;
         pq.push({0 , node1});
         while(!pq.empty()){
