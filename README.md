@@ -72,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0684-redundant-connection](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0684-redundant-connection) |
 | [0778-swim-in-rising-water](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0778-swim-in-rising-water) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0787-cheapest-flights-within-k-stops) |
+| [0814-binary-tree-pruning](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0814-binary-tree-pruning) |
 | [0827-making-a-large-island](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0827-making-a-large-island) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [1261-find-elements-in-a-contaminated-binary-tree](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1261-find-elements-in-a-contaminated-binary-tree) |
@@ -407,6 +408,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0124-binary-tree-maximum-path-sum](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0429-n-ary-tree-level-order-traversal](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0429-n-ary-tree-level-order-traversal) |
 | [0508-most-frequent-subtree-sum](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0508-most-frequent-subtree-sum) |
+| [0814-binary-tree-pruning](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0814-binary-tree-pruning) |
 | [1261-find-elements-in-a-contaminated-binary-tree](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1261-find-elements-in-a-contaminated-binary-tree) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 | [2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
@@ -416,6 +418,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0098-validate-binary-search-tree](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0098-validate-binary-search-tree) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0508-most-frequent-subtree-sum](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0508-most-frequent-subtree-sum) |
+| [0814-binary-tree-pruning](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0814-binary-tree-pruning) |
 | [1261-find-elements-in-a-contaminated-binary-tree](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1261-find-elements-in-a-contaminated-binary-tree) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 | [2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
