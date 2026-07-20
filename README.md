@@ -102,6 +102,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1267-count-servers-that-communicate](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1267-count-servers-that-communicate) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1448-count-good-nodes-in-binary-tree) |
+| [1609-even-odd-tree](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1609-even-odd-tree) |
 | [2045-second-minimum-time-to-reach-destination](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2045-second-minimum-time-to-reach-destination) |
 | [2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 | [2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
@@ -427,6 +428,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1261-find-elements-in-a-contaminated-binary-tree](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1261-find-elements-in-a-contaminated-binary-tree) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1448-count-good-nodes-in-binary-tree) |
+| [1609-even-odd-tree](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1609-even-odd-tree) |
 | [2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
 ## Binary Tree
 |  |
@@ -441,6 +443,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1261-find-elements-in-a-contaminated-binary-tree](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1261-find-elements-in-a-contaminated-binary-tree) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1448-count-good-nodes-in-binary-tree) |
+| [1609-even-odd-tree](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1609-even-odd-tree) |
 | [2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
 ## Binary Search Tree
 |  |
