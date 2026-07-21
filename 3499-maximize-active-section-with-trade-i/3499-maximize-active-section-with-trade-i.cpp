@@ -24,7 +24,7 @@ public:
         }
         if(start != -1 && end != -1) ones.push_back({start , end});
         if(ones.size() == 0) return 0;
-        unordered_map<int , int> mppLeft;
+        vector<int> mppLeft(s.size());
         int count0left = 0;
         for(int i = 0 ; i<s.size() ; i++){
             if(s[i] == '1'){
@@ -35,7 +35,7 @@ public:
                 count0left++;
             }
         }
-        unordered_map<int , int> mppRight;
+        vector<int> mppRight(s.size());
         int count0Right = 0;
         for(int i = s.size()-1 ; i>=0 ; i--){
             if(s[i] == '1'){
