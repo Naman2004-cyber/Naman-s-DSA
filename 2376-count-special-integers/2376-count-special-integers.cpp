@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int dp[11][1024][2][2];
+    int dp[10][1024][2][2];
     int doit(int idx , int mask , bool tight , bool started , string &str){
         if(idx == str.size()) return started;
         if(dp[idx][mask][tight][started] != -1) return dp[idx][mask][tight][started];
