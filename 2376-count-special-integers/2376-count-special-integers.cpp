@@ -9,12 +9,11 @@ public:
         for(int digit = 0 ; digit<=limit ; digit++){
             int nextStarted = started || (digit != 0);
             int nextTight = tight && (digit == str[idx]-'0');
-            // check if digit is used
-            if(mask & (1 << digit)) continue;
             if(!nextStarted){
                 ans+=doit(idx+1 , mask , nextTight , false , str);
             }
             else{
+                 if(mask & (1 << digit)) continue;
                 int newMask = (mask | (1 << digit));
                 ans+=doit(idx+1 , newMask , nextTight , nextStarted , str);
             }
