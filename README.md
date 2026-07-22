@@ -176,6 +176,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0935-knight-dialer](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0935-knight-dialer) |
 | [0960-delete-columns-to-make-sorted-iii](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0960-delete-columns-to-make-sorted-iii) |
 | [0996-number-of-squareful-arrays](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0996-number-of-squareful-arrays) |
+| [1012-numbers-with-repeated-digits](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1012-numbers-with-repeated-digits) |
 | [1269-number-of-ways-to-stay-in-the-same-place-after-some-steps](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1269-number-of-ways-to-stay-in-the-same-place-after-some-steps) |
 | [1301-number-of-paths-with-max-score](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1301-number-of-paths-with-max-score) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
@@ -252,6 +253,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0204-count-primes](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0204-count-primes) |
 | [0996-number-of-squareful-arrays](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0996-number-of-squareful-arrays) |
+| [1012-numbers-with-repeated-digits](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1012-numbers-with-repeated-digits) |
 | [1780-check-if-number-is-a-sum-of-powers-of-three](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1780-check-if-number-is-a-sum-of-powers-of-three) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2063-vowels-of-all-substrings](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2063-vowels-of-all-substrings) |
