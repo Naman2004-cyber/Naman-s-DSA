@@ -21,37 +21,19 @@ public:
         }
         return dp[pos][prevDigit][tight][started] = ans;
     }
-    string subtractOne(string s)
-{
-    int i = s.size() - 1;
-
-    while(i >= 0)
-    {
-        if(s[i] > '0')
-        {
-            s[i]--;
-            break;
+    bool isValid(string str){
+        for(int i = 0 ; i<str.size()-1 ; i++){
+            if(abs(str[i] - str[i+1]) != 1) return false;
         }
-
-        s[i] = '9';
-        i--;
+        return true;
     }
-
-    // remove leading zeros
-    int pos = 0;
-
-    while(pos + 1 < s.size() && s[pos] == '0')
-        pos++;
-
-    return s.substr(pos);
-}
     int countSteppingNumbers(string low , string high) {
-        string use = subtractOne(low);
         memset(dp , -1 , sizeof(dp));
-        int first = doit(0 , 10 , true , false , use);
+        int first = doit(0 , 10 , true , false , low);
         memset(dp , -1 , sizeof(dp));
         int second = doit(0 , 10 , true , false , high);
         int ans = (second - first + mod)%mod;
+        if(isValid(low)) ans++;
         ans = ans%mod;
         return ans;
     }
