@@ -368,6 +368,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2063-vowels-of-all-substrings](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2063-vowels-of-all-substrings) |
 | [2262-total-appeal-of-a-string](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2262-total-appeal-of-a-string) |
 | [2284-sender-with-largest-word-count](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2284-sender-with-largest-word-count) |
+| [2414-length-of-the-longest-alphabetical-continuous-substring](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2414-length-of-the-longest-alphabetical-continuous-substring) |
 | [2801-count-stepping-numbers-in-range](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2801-count-stepping-numbers-in-range) |
 | [2976-minimum-cost-to-convert-string-i](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2976-minimum-cost-to-convert-string-i) |
 | [3223-minimum-length-of-string-after-operations](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3223-minimum-length-of-string-after-operations) |
