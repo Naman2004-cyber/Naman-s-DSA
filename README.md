@@ -196,6 +196,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3620-network-recovery-pathways](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3620-network-recovery-pathways) |
 | [3700-number-of-zigzag-arrays-ii](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3700-number-of-zigzag-arrays-ii) |
+| [3791-number-of-balanced-integers-in-a-range](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3791-number-of-balanced-integers-in-a-range) |
 | [3977-minimum-time-to-reach-target-with-limited-power](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3977-minimum-time-to-reach-target-with-limited-power) |
 ## Graph Theory
 |  |
