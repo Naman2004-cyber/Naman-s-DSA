@@ -10,7 +10,6 @@ public:
             if(number < val) break;
             index++;
         }
-        cout << index;
         int ans = 1 << (index+1);
         return ans;
     }
