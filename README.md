@@ -189,6 +189,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2063-vowels-of-all-substrings](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2063-vowels-of-all-substrings) |
 | [2262-total-appeal-of-a-string](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2262-total-appeal-of-a-string) |
 | [2376-count-special-integers](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2376-count-special-integers) |
+| [2719-count-of-integers](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2719-count-of-integers) |
 | [2801-count-stepping-numbers-in-range](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2801-count-stepping-numbers-in-range) |
 | [2827-number-of-beautiful-integers-in-the-range](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2827-number-of-beautiful-integers-in-the-range) |
 | [3229-minimum-operations-to-make-array-equal-to-target](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3229-minimum-operations-to-make-array-equal-to-target) |
@@ -261,6 +262,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2063-vowels-of-all-substrings](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2063-vowels-of-all-substrings) |
 | [2376-count-special-integers](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2376-count-special-integers) |
+| [2719-count-of-integers](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2719-count-of-integers) |
 | [2827-number-of-beautiful-integers-in-the-range](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2827-number-of-beautiful-integers-in-the-range) |
 | [3312-sorted-gcd-pair-queries](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3312-sorted-gcd-pair-queries) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
@@ -374,6 +376,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2262-total-appeal-of-a-string](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2262-total-appeal-of-a-string) |
 | [2284-sender-with-largest-word-count](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2284-sender-with-largest-word-count) |
 | [2414-length-of-the-longest-alphabetical-continuous-substring](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2414-length-of-the-longest-alphabetical-continuous-substring) |
+| [2719-count-of-integers](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2719-count-of-integers) |
 | [2801-count-stepping-numbers-in-range](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2801-count-stepping-numbers-in-range) |
 | [2976-minimum-cost-to-convert-string-i](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2976-minimum-cost-to-convert-string-i) |
 | [3223-minimum-length-of-string-after-operations](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3223-minimum-length-of-string-after-operations) |
