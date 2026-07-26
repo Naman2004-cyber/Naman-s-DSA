@@ -12,11 +12,11 @@ public:
                 secondLargest = largest;
                 largest = nums[i];
             }
-            else if(nums[i] > secondLargest && nums[i] <= largest){
+            else if(nums[i] > secondLargest){
                 thirdLargest = secondLargest;
                 secondLargest = nums[i];
             }
-            else if(nums[i] > thirdLargest && nums[i] <= secondLargest){
+            else if(nums[i] > thirdLargest){
                 thirdLargest = nums[i];
             }
 
@@ -24,11 +24,10 @@ public:
                 secondSmallest = smallest;
                 smallest = nums[i];
             }
-            else if(nums[i] < secondSmallest && nums[i] >= smallest){
+            else if(nums[i] < secondSmallest){
                 secondSmallest = nums[i];
             }
         }
-        cout << largest << " " << secondLargest << " " << thirdLargest << " " << smallest << " " << secondSmallest;
         return max((largest * secondLargest * thirdLargest),(smallest * secondSmallest * largest));
     }
 };
