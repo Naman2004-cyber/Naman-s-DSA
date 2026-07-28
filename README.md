@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2155-all-divisions-with-the-highest-score-of-a-binary-array](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2155-all-divisions-with-the-highest-score-of-a-binary-array) |
+| [2260-minimum-consecutive-cards-to-pick-up](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2260-minimum-consecutive-cards-to-pick-up) |
 | [2284-sender-with-largest-word-count](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2284-sender-with-largest-word-count) |
 | [2302-count-subarrays-with-score-less-than-k](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2302-count-subarrays-with-score-less-than-k) |
 | [2444-count-subarrays-with-fixed-bounds](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2444-count-subarrays-with-fixed-bounds) |
@@ -309,6 +310,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1695-maximum-erasure-value](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1695-maximum-erasure-value) |
 | [2062-count-vowel-substrings-of-a-string](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2062-count-vowel-substrings-of-a-string) |
 | [2186-minimum-number-of-steps-to-make-two-strings-anagram-ii](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2186-minimum-number-of-steps-to-make-two-strings-anagram-ii) |
+| [2260-minimum-consecutive-cards-to-pick-up](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2260-minimum-consecutive-cards-to-pick-up) |
 | [2262-total-appeal-of-a-string](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2262-total-appeal-of-a-string) |
 | [2284-sender-with-largest-word-count](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2284-sender-with-largest-word-count) |
 | [3223-minimum-length-of-string-after-operations](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3223-minimum-length-of-string-after-operations) |
@@ -430,6 +432,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1297-maximum-number-of-occurrences-of-a-substring](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1297-maximum-number-of-occurrences-of-a-substring) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1695-maximum-erasure-value](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1695-maximum-erasure-value) |
+| [2260-minimum-consecutive-cards-to-pick-up](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2260-minimum-consecutive-cards-to-pick-up) |
 | [2302-count-subarrays-with-score-less-than-k](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2302-count-subarrays-with-score-less-than-k) |
 | [2444-count-subarrays-with-fixed-bounds](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2444-count-subarrays-with-fixed-bounds) |
 | [3254-find-the-power-of-k-size-subarrays-i](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3254-find-the-power-of-k-size-subarrays-i) |
