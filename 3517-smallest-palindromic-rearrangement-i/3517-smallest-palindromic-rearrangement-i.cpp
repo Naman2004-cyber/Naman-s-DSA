@@ -5,28 +5,21 @@ public:
         for(int i = 0 ; i<s.size() ; i++){
             chars[s[i]-'a']++;
         }
-        sort(s.begin() , s.end());
-        string first = "";
-        string second = "";
         string extra = "";
+        string first = "";
         for(int i = 0 ; i<26 ; i++){
-            if(chars[i]%2 != 0){
-                extra = i+'a';
-                chars[i]--;
-                break;
+            if(chars[i] == 0) continue;
+            if(chars[i]%2 != 0) extra = i + 'a';
+            int times = chars[i]/2;
+            for(int j = 0 ; j<times ; j++){
+                first+=(i+'a');
             }
         }
-        for(int i = 0 ; i<s.size() ; i++){
-            if(chars[s[i]-'a'] == 0) continue;
-            if(chars[s[i]-'a']%2 == 0) first+=s[i];
-            else second+=s[i];
-            chars[s[i]-'a']--;
-        }
-        reverse(second.begin() , second.end());
         string finalans = "";
         finalans+=first;
         finalans+=extra;
-        finalans+=second;
+        reverse(first.begin() , first.end());
+        finalans+=first;
         return finalans;
     }
 };
