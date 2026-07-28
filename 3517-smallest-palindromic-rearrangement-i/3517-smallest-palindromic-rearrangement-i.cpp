@@ -2,21 +2,31 @@ class Solution {
 public:
     string smallestPalindrome(string s) {
         vector<int> chars(26 , 0);
-        for(int i = 0 ; i<s.size() ; i++) chars[s[i]-'a']++;
-        string extra = "";
-        string first = "";
-        for(int i = 0 ; i<26 ; i++){
-            if(chars[i] == 0) continue;
-            int times = chars[i]/2;
-            if(chars[i]%2 != 0) extra = i + 'a';
-            char use = i + 'a';
-            for(int j = 0 ; j<times ; j++) first+=use;
+        for(int i = 0 ; i<s.size() ; i++){
+            chars[s[i]-'a']++;
         }
-        string finalans = first;
-        if(extra != "") finalans+=extra;
-        reverse(first.begin() , first.end());
+        sort(s.begin() , s.end());
+        string first = "";
+        string second = "";
+        string extra = "";
+        for(int i = 0 ; i<26 ; i++){
+            if(chars[i]%2 != 0){
+                extra = i+'a';
+                chars[i]--;
+                break;
+            }
+        }
+        for(int i = 0 ; i<s.size() ; i++){
+            if(chars[s[i]-'a'] == 0) continue;
+            if(chars[s[i]-'a']%2 == 0) first+=s[i];
+            else second+=s[i];
+            chars[s[i]-'a']--;
+        }
+        reverse(second.begin() , second.end());
+        string finalans = "";
         finalans+=first;
-        cout << extra;
+        finalans+=extra;
+        finalans+=second;
         return finalans;
     }
 };
