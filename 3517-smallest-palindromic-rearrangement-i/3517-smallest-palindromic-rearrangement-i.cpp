@@ -11,9 +11,7 @@ public:
             if(chars[i] == 0) continue;
             if(chars[i]%2 != 0) extra = i + 'a';
             int times = chars[i]/2;
-            for(int j = 0 ; j<times ; j++){
-                first+=(i+'a');
-            }
+            first.append(times , char(i + 'a'));
         }
         string finalans = "";
         finalans+=first;
