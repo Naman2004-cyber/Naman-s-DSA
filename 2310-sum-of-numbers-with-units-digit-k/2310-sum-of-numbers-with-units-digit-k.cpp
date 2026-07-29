@@ -5,7 +5,7 @@ public:
         if(num < k) return -1;
         int req = num%10;
         int sum = 0;
-        for(int i = 0 ; i<1000 ; i++){
+        for(int i = 0 ; i<10 ; i++){
             sum+=k;
             if(sum > num) return -1;
             int aval = sum%10;
