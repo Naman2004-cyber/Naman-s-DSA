@@ -28,21 +28,25 @@ public:
             }
             mpp[i] = sum;
         }
-        // for(int i = 0 ; i<nums.size() ; i++) cout << sizeFirst[i] << " ";
-        // cout << endl;
-        // for(int i = 0 ; i<nums.size() ; i++) cout << sizeSecond[i] << " ";
-        int maxi = 0;
-        for(int i = 0 ; i<nums.size() ; i++){
-            int startSecond = i+secondLen;
-            for(int j = startSecond ; j<nums.size() ; j++){
-                maxi = max(maxi , sizeFirst[i]+sizeSecond[j]);
-            }
-
-            int startFirst = i+firstLen;
-            for(int j = startFirst ; j<nums.size() ; j++){
-                maxi = max(maxi , sizeSecond[i]+sizeFirst[j]);
-            }
+        vector<int> maxFirst(nums.size());
+        vector<int> maxSecond(nums.size());
+        int firstmaxi = 0;
+        int secondmaxi = 0;
+        int ans = 0;
+        for(int i = nums.size()-1 ; i>=0 ; i--){
+            firstmaxi = max(firstmaxi , sizeFirst[i]);
+            secondmaxi = max(secondmaxi , sizeSecond[i]);
+            maxFirst[i] = firstmaxi;
+            maxSecond[i] = secondmaxi;
+            // pehle first
+            int sum1 = sizeFirst[i];
+            if(i+secondLen < nums.size()) sum1+=maxSecond[i+secondLen];
+            ans = max(ans , sum1);
+            // pehle second;
+            int sum2 = sizeSecond[i];
+            if(i+firstLen < nums.size()) sum2+=maxFirst[i+firstLen];
+            ans = max(ans , sum2);
         }
-        return maxi;
+        return ans;
     }
 };
