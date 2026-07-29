@@ -43,13 +43,13 @@ public:
             if(i == n-1 || i-k < 0 || i+k >= n) continue;
             int bestRight = maxIndexRightArray[i+k];
             int bestLeft = maxIndexLeftArray[i-k];
-            if(subarraySum[i] > 0 && subarraySum[bestRight] > 0 && subarraySum[bestLeft] > 0){
+            // if(subarraySum[i] > 0 && subarraySum[bestRight] > 0 && subarraySum[bestLeft] > 0){
                 int sum = subarraySum[i] + subarraySum[bestRight] + subarraySum[bestLeft];
                 if(sum > maxAns){
                     maxAns = sum;
                     ans = {bestLeft , i , bestRight};
                 }
-            }
+            // }
             
         }
         return ans;
