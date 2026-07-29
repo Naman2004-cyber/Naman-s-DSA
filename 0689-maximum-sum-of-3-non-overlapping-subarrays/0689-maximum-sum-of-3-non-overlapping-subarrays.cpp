@@ -17,9 +17,6 @@ public:
                 subarraySum[i] = 0;
             }
         }
-        // for(int i = 0 ; i<n ; i++) cout << subarraySum[i] << " ";
-        // cout << endl;
-
         int maxSumRight = 0;
         int maxIndexRight = -1;
         vector<int> maxIndexRightArray(nums.size());
@@ -30,9 +27,6 @@ public:
             }
             maxIndexRightArray[i] = maxIndexRight;
         }
-        // for(int i = 0 ; i<n ; i++) cout << maxIndexRightArray[i] << " ";
-        // cout << endl;
-
         int maxSumLeft = 0;
         int maxIndexLeft = -1;
         vector<int> maxIndexLeftArray(nums.size());
@@ -43,8 +37,6 @@ public:
             }
             maxIndexLeftArray[i] = maxIndexLeft;
         }
-        // for(int i = 0 ; i<n ; i++) cout << maxIndexLeftArray[i] << " ";
-        // cout << endl;
         vector<int> ans;
         int maxAns = 0;
         for(int i = 0 ; i<nums.size() ; i++){
