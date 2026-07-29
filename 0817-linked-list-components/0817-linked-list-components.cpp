@@ -16,13 +16,8 @@ public:
         st.insert(nums.begin() , nums.end());
         ListNode* temp = head;
         while(temp != NULL){
-            if(st.count(temp->val)){
-                if(temp->next == NULL){
-                    count++;
-                }
-                else if(!st.count(temp->next->val)){
-                    count++;
-                }
+            if(st.count(temp->val) && (temp->next == NULL || !st.count(temp->next->val))){
+                count++;
             }
             temp = temp->next;
         }
