@@ -1,7 +1,7 @@
 class Solution {
 public:
     int maxSumTwoNoOverlap(vector<int>& nums, int firstLen, int secondLen) {
-        unordered_map<int , int> mpp;
+        vector<int> mpp(nums.size());
         int sum = 0;
         vector<int> sizeFirst(nums.size());
         vector<int> sizeSecond(nums.size());
