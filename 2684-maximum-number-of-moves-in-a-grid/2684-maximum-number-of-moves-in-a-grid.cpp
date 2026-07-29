@@ -12,7 +12,7 @@ public:
         if(currx+1 < grid.size() && curry+1 < grid[0].size() && grid[currx+1][curry+1] > grid[currx][curry]){
             rightDown = 1 + doit(currx+1 , curry+1 , grid);
         }
-        if(currx-1 < grid.size() && curry+1 < grid[0].size() && grid[currx-1][curry+1] > grid[currx][curry]){
+        if(currx-1 >=0 && curry+1 < grid[0].size() && grid[currx-1][curry+1] > grid[currx][curry]){
             rightUp = 1 + doit(currx-1 , curry+1 , grid);
         }
         return dp[currx][curry] = max(right , max(rightDown , rightUp));
