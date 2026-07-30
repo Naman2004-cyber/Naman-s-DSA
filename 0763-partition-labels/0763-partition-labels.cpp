@@ -8,7 +8,7 @@ public:
         int maxi = INT_MIN;
         while(i < s.size() && j < s.size()){
             maxi = max(lastSeen[s[j]-'a'] , maxi);
-            if(lastSeen[s[j]-'a'] == j && lastSeen[s[j]-'a'] == maxi){
+            if(j == maxi){
                 ans.push_back(j-i+1);
                 j++;
                 i = j;
