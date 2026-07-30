@@ -12,6 +12,7 @@ public:
                 ans.push_back(j-i+1);
                 j++;
                 i = j;
+                maxi = INT_MIN;
             }
             else{
                 j++;
