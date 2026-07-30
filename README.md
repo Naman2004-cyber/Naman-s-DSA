@@ -67,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3603-minimum-cost-path-with-alternating-directions-ii](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3603-minimum-cost-path-with-alternating-directions-ii) |
 | [3618-split-array-by-prime-indices](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3618-split-array-by-prime-indices) |
 | [3620-network-recovery-pathways](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3620-network-recovery-pathways) |
+| [3686-number-of-stable-subsequences](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3686-number-of-stable-subsequences) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3739-count-subarrays-with-majority-element-ii) |
 | [3977-minimum-time-to-reach-target-with-limited-power](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3977-minimum-time-to-reach-target-with-limited-power) |
@@ -222,6 +223,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3557-find-maximum-number-of-non-intersecting-substrings](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3557-find-maximum-number-of-non-intersecting-substrings) |
 | [3603-minimum-cost-path-with-alternating-directions-ii](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3603-minimum-cost-path-with-alternating-directions-ii) |
 | [3620-network-recovery-pathways](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3620-network-recovery-pathways) |
+| [3686-number-of-stable-subsequences](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3686-number-of-stable-subsequences) |
 | [3700-number-of-zigzag-arrays-ii](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3700-number-of-zigzag-arrays-ii) |
 | [3791-number-of-balanced-integers-in-a-range](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3791-number-of-balanced-integers-in-a-range) |
 | [3906-count-good-integers-on-a-grid-path](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3906-count-good-integers-on-a-grid-path) |
