@@ -283,6 +283,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1296-divide-array-in-sets-of-k-consecutive-numbers) |
 | [1402-reducing-dishes](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1402-reducing-dishes) |
 | [1526-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1526-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
+| [1647-minimum-deletions-to-make-character-frequencies-unique](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1647-minimum-deletions-to-make-character-frequencies-unique) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [2310-sum-of-numbers-with-units-digit-k](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2310-sum-of-numbers-with-units-digit-k) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
@@ -340,6 +341,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1296-divide-array-in-sets-of-k-consecutive-numbers) |
 | [1297-maximum-number-of-occurrences-of-a-substring](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1297-maximum-number-of-occurrences-of-a-substring) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1358-number-of-substrings-containing-all-three-characters) |
+| [1647-minimum-deletions-to-make-character-frequencies-unique](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1647-minimum-deletions-to-make-character-frequencies-unique) |
 | [1695-maximum-erasure-value](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1695-maximum-erasure-value) |
 | [2062-count-vowel-substrings-of-a-string](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2062-count-vowel-substrings-of-a-string) |
 | [2186-minimum-number-of-steps-to-make-two-strings-anagram-ii](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2186-minimum-number-of-steps-to-make-two-strings-anagram-ii) |
@@ -409,6 +411,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1402-reducing-dishes](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1402-reducing-dishes) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1508-range-sum-of-sorted-subarray-sums](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1508-range-sum-of-sorted-subarray-sums) |
+| [1647-minimum-deletions-to-make-character-frequencies-unique](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1647-minimum-deletions-to-make-character-frequencies-unique) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3517-smallest-palindromic-rearrangement-i) |
@@ -438,6 +441,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1208-get-equal-substrings-within-budget](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1208-get-equal-substrings-within-budget) |
 | [1297-maximum-number-of-occurrences-of-a-substring](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1297-maximum-number-of-occurrences-of-a-substring) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1358-number-of-substrings-containing-all-three-characters) |
+| [1647-minimum-deletions-to-make-character-frequencies-unique](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1647-minimum-deletions-to-make-character-frequencies-unique) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [2062-count-vowel-substrings-of-a-string](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2062-count-vowel-substrings-of-a-string) |
 | [2063-vowels-of-all-substrings](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2063-vowels-of-all-substrings) |
