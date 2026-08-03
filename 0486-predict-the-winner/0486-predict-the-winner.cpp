@@ -6,7 +6,6 @@ public:
         for(int i = 0 ; i<n ; i++){
             for(int j = i ; j>=0 ; j--){
                 if(j == i) dp[i][j] = nums[i];
-                if(j < i) dp[i][j] = 0;
             }
         }
         for(int i = n-1 ; i>=0 ; i--){
