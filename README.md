@@ -53,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2109-adding-spaces-to-a-string](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2109-adding-spaces-to-a-string) |
 | [2155-all-divisions-with-the-highest-score-of-a-binary-array](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2155-all-divisions-with-the-highest-score-of-a-binary-array) |
 | [2260-minimum-consecutive-cards-to-pick-up](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2260-minimum-consecutive-cards-to-pick-up) |
+| [2279-maximum-bags-with-full-capacity-of-rocks](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2279-maximum-bags-with-full-capacity-of-rocks) |
 | [2284-sender-with-largest-word-count](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2284-sender-with-largest-word-count) |
 | [2302-count-subarrays-with-score-less-than-k](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2302-count-subarrays-with-score-less-than-k) |
 | [2444-count-subarrays-with-fixed-bounds](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2444-count-subarrays-with-fixed-bounds) |
@@ -290,6 +291,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1526-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1526-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1647-minimum-deletions-to-make-character-frequencies-unique](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1647-minimum-deletions-to-make-character-frequencies-unique) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1877-minimize-maximum-pair-sum-in-array) |
+| [2279-maximum-bags-with-full-capacity-of-rocks](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2279-maximum-bags-with-full-capacity-of-rocks) |
 | [2310-sum-of-numbers-with-units-digit-k](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2310-sum-of-numbers-with-units-digit-k) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
@@ -421,6 +423,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1508-range-sum-of-sorted-subarray-sums](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1508-range-sum-of-sorted-subarray-sums) |
 | [1647-minimum-deletions-to-make-character-frequencies-unique](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1647-minimum-deletions-to-make-character-frequencies-unique) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1877-minimize-maximum-pair-sum-in-array) |
+| [2279-maximum-bags-with-full-capacity-of-rocks](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2279-maximum-bags-with-full-capacity-of-rocks) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3517-smallest-palindromic-rearrangement-i) |
 | [3536-maximum-product-of-two-digits](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3536-maximum-product-of-two-digits) |
