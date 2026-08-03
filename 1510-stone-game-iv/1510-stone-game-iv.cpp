@@ -1,20 +1,23 @@
 class Solution {
 public:
-    int doit(int n , vector<int>& dp){
-        if(n == 0) return -1;
-        if(dp[n] != INT_MIN) return dp[n];
-        int use = 1;
-        while((use*use) <= n){
-            int val = doit(n-(use*use) , dp);
-            if(val == -1) return dp[n] =  1;
-            use++;
-        }
-        return dp[n] = -1;
-    }
     bool winnerSquareGame(int n) {
-        vector<int> dp(n+1 , INT_MIN);
-        int ans = doit(n , dp);
-        cout << ans;
+        vector<int> dp(n+1);
+        dp[0] = -1;
+        for(int i = 1 ; i<=n ; i++){
+            int use = 1;
+            int flag = 0;
+            while(use*use <= i){
+                int val = dp[i-(use*use)];
+                if(val == -1) {
+                    dp[i] = 1;
+                    flag = 1;
+                    break;
+                }
+                use++;
+            }
+            if(flag == 0) dp[i] = -1;
+        }
+        int ans = dp[n];
         if(ans == -1) return false;
         return true;
     }
