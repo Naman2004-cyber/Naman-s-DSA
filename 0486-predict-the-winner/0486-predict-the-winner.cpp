@@ -4,7 +4,8 @@ public:
     bool predictTheWinner(vector<int>& nums) {
         int n = nums.size();
         for(int i = 0 ; i<n ; i++){
-            for(int j = i-1 ; j>=0 ; j--){
+            for(int j = i ; j>=0 ; j--){
+                if(j == i) dp[i][j] = nums[i];
                 if(j < i) dp[i][j] = 0;
             }
         }
