@@ -62,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2684-maximum-number-of-moves-in-a-grid](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2684-maximum-number-of-moves-in-a-grid) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [2976-minimum-cost-to-convert-string-i](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2976-minimum-cost-to-convert-string-i) |
+| [3115-maximum-prime-difference](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3115-maximum-prime-difference) |
 | [3229-minimum-operations-to-make-array-equal-to-target](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3229-minimum-operations-to-make-array-equal-to-target) |
 | [3254-find-the-power-of-k-size-subarrays-i](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3254-find-the-power-of-k-size-subarrays-i) |
 | [3255-find-the-power-of-k-size-subarrays-ii](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3255-find-the-power-of-k-size-subarrays-ii) |
@@ -324,6 +325,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2719-count-of-integers](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2719-count-of-integers) |
 | [2827-number-of-beautiful-integers-in-the-range](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2827-number-of-beautiful-integers-in-the-range) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
+| [3115-maximum-prime-difference](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3115-maximum-prime-difference) |
 | [3312-sorted-gcd-pair-queries](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3312-sorted-gcd-pair-queries) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3513-number-of-unique-xor-triplets-i](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3513-number-of-unique-xor-triplets-i) |
@@ -534,6 +536,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0204-count-primes](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0204-count-primes) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1979-find-greatest-common-divisor-of-array) |
+| [3115-maximum-prime-difference](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3115-maximum-prime-difference) |
 | [3312-sorted-gcd-pair-queries](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3312-sorted-gcd-pair-queries) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3618-split-array-by-prime-indices](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3618-split-array-by-prime-indices) |
@@ -653,4 +656,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1510-stone-game-iv](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1510-stone-game-iv) |
+## Primality Test
+|  |
+| ------- |
+| [3115-maximum-prime-difference](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3115-maximum-prime-difference) |
 <!---LeetCode Topics End-->
