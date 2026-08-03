@@ -3,9 +3,7 @@ public:
     string stoneGameIII(vector<int>& stoneValue) {
         int n = stoneValue.size();
         // vector<int> dp(stoneValue.size()+1);
-        int plus1 = 0;
-        int plus2 = 0;
-        int plus3 = 0;
+        int plus1 = 0 , plus2 = 0 , plus3 = 0;
         for(int i = n-1 ; i>=0 ; i--){
             int one = stoneValue[i] - plus1;
             int two = -2001;
