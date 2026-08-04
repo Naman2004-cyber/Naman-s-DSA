@@ -9,7 +9,6 @@ public:
             freq[s[i]-'a']++;
             distinctAtIdx[i] = distinct;
         }
-        // for(int i = 0 ; i<s.size() ; i++) cout << distinctAtIdx[i] << " ";
         int ans = 0;
         int countDistinct = 0;
         vector<int> countFreq(26 , 0);
