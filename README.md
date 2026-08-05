@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0064-minimum-path-sum](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0064-minimum-path-sum) |
 | [0204-count-primes](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0204-count-primes) |
 | [0300-longest-increasing-subsequence](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0300-longest-increasing-subsequence) |
+| [0304-range-sum-query-2d-immutable](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0304-range-sum-query-2d-immutable) |
 | [0403-frog-jump](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0403-frog-jump) |
 | [0486-predict-the-winner](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0486-predict-the-winner) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0628-maximum-product-of-three-numbers) |
@@ -191,6 +192,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0064-minimum-path-sum](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0064-minimum-path-sum) |
+| [0304-range-sum-query-2d-immutable](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0304-range-sum-query-2d-immutable) |
 | [0773-sliding-puzzle](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0773-sliding-puzzle) |
 | [0778-swim-in-rising-water](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0778-swim-in-rising-water) |
 | [0827-making-a-large-island](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0827-making-a-large-island) |
@@ -423,6 +425,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [0304-range-sum-query-2d-immutable](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0304-range-sum-query-2d-immutable) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [0930-binary-subarrays-with-sum](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0930-binary-subarrays-with-sum) |
 | [1208-get-equal-substrings-within-budget](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1208-get-equal-substrings-within-budget) |
@@ -646,6 +649,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0304-range-sum-query-2d-immutable](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0304-range-sum-query-2d-immutable) |
 | [1261-find-elements-in-a-contaminated-binary-tree](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1261-find-elements-in-a-contaminated-binary-tree) |
 | [2642-design-graph-with-shortest-path-calculator](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2642-design-graph-with-shortest-path-calculator) |
 ## Linked List
