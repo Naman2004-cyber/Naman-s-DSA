@@ -13,7 +13,6 @@ public:
         }
         vector<int> parent(n , -1);
         doit(k , parent , k , adj);
-        // for(int i = 0 ; i<n ; i++) cout << i << " ---> " << parent[i] << endl;
         int flag = 0;
         for(int i = 0 ; i<n ; i++){
             if(parent[i] == k) continue;
@@ -24,7 +23,6 @@ public:
                 }
             }
         }
-        // for(int i = 0 ; i<n ; i++) cout << i << " ---> " << parent[i] << endl;
         vector<int> ans;
         if(flag == 1){
             for(int i = 0 ; i<n ; i++) ans.push_back(i);
