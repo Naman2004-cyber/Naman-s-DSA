@@ -10,7 +10,6 @@ public:
             if(nums[i] == 0){
                 if(i+k-1 >= nums.size()) return -1;
                 count++;
-                cout << i << " -- > " << count << endl;
                 diff[i]++;
                 if(i+k < nums.size()) diff[i+k]--;
             }
