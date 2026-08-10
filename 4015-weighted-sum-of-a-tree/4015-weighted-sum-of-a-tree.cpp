@@ -1,9 +1,9 @@
 class Solution {
 public:
     long long weightedSum(vector<int>& parent, vector<int>& nums) {
-        vector<vector<pair<int , int>>> adj(parent.size());
+        vector<vector<int>> adj(parent.size());
         for(int i = 1 ; i<parent.size() ; i++){
-            adj[parent[i]].push_back({i , nums[i]});
+            adj[parent[i]].push_back(i);
         }
         int index = 0;
         int height = 0;
@@ -15,22 +15,22 @@ public:
                 auto it = qt.front();
                 qt.pop();
                 for(auto &a : adj[it]){
-                    qt.push(a.first);
+                    qt.push(a);
                 }
             }
             height++;
         }
         long long ans = 0;
-        queue<pair<int , int>> qit;
-        qit.push({0 , nums[0]});
+        queue<int> qit;
+        qit.push(0);
         int level = 1;
         while(!qit.empty()){
             int n = qit.size();
             for(int i = 0 ; i<n ; i++){
                 auto it = qit.front();
                 qit.pop();
-                ans = ans + (1LL * it.second * (height - level + 1));
-                for(auto &a : adj[it.first]){
+                ans = ans + (1LL * nums[it] * (height - level + 1));
+                for(auto &a : adj[it]){
                     qit.push(a);
                 }
             }
