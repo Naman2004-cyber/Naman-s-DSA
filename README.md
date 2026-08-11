@@ -69,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2740-find-the-value-of-the-partition](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2740-find-the-value-of-the-partition) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [2976-minimum-cost-to-convert-string-i](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2976-minimum-cost-to-convert-string-i) |
+| [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3115-maximum-prime-difference](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3115-maximum-prime-difference) |
 | [3147-taking-maximum-energy-from-the-mystic-dungeon](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3147-taking-maximum-energy-from-the-mystic-dungeon) |
 | [3229-minimum-operations-to-make-array-equal-to-target](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3229-minimum-operations-to-make-array-equal-to-target) |
@@ -384,6 +385,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2262-total-appeal-of-a-string](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2262-total-appeal-of-a-string) |
 | [2284-sender-with-largest-word-count](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2284-sender-with-largest-word-count) |
 | [2352-equal-row-and-column-pairs](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2352-equal-row-and-column-pairs) |
+| [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3223-minimum-length-of-string-after-operations](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3223-minimum-length-of-string-after-operations) |
 | [3312-sorted-gcd-pair-queries](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3312-sorted-gcd-pair-queries) |
@@ -461,6 +463,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2279-maximum-bags-with-full-capacity-of-rocks](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2279-maximum-bags-with-full-capacity-of-rocks) |
 | [2679-sum-in-a-matrix](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2679-sum-in-a-matrix) |
 | [2740-find-the-value-of-the-partition](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2740-find-the-value-of-the-partition) |
+| [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3517-smallest-palindromic-rearrangement-i) |
 | [3536-maximum-product-of-two-digits](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3536-maximum-product-of-two-digits) |
