@@ -8,19 +8,22 @@ public:
         int mid = (l+r)/2;
         buildTree(2*segIdx+1 , l , mid , segTree , heights);
         buildTree(2*segIdx+2 , mid+1 , r , segTree , heights);
-        int leftMaxIdx = segTree[2*segIdx+1];
-        int rightMaxIdx = segTree[2*segIdx+2];
-        segTree[segIdx] = heights[leftMaxIdx] >= heights[rightMaxIdx] ? leftMaxIdx : rightMaxIdx;
+        if(heights[segTree[2*segIdx+1]] >= heights[segTree[2*segIdx+2]]){
+            segTree[segIdx] = segTree[2*segIdx+1];
+        }
+        else segTree[segIdx] = segTree[2*segIdx+2];
     }
     int rmiq(int segIdx , int l , int r , int start , int end , vector<int> &segTree , vector<int> &heights){
         if(l > end || r < start) return -1;
-        if(l >=  start && r <= end) return segTree[segIdx];
+        if(l >= start && r <= end) return segTree[segIdx];
         int mid = (l+r)/2;
         int left = rmiq(2*segIdx+1 , l , mid , start , end , segTree , heights);
         int right = rmiq(2*segIdx+2 , mid+1 , r , start , end , segTree , heights);
         if(left == -1) return right;
         if(right == -1) return left;
-        if(heights[left] >= heights[right]) return left;
+        if(heights[left] >= heights[right]){
+            return left;
+        }
         return right;
     }
     vector<int> leftmostBuildingQueries(vector<int>& heights, vector<vector<int>>& queries) {
@@ -44,14 +47,12 @@ public:
             int use = INT_MAX;
             while(low <= high){
                 int mid = low + ((high-low)/2);
-                int idx = rmiq(0 , 0 , n-1 , low , mid , segTree , heights);
-                if(heights[idx] > max(heights[min_idx] , heights[max_idx])){
-                    use = idx;
+                int val = rmiq(0 , 0 , n-1 , low , mid , segTree , heights);
+                if(heights[val] > max(heights[max_idx] , heights[min_idx])){
+                    use = val;
                     high = mid-1;
                 }
-                else{
-                    low = mid+1;
-                }
+                else low = mid+1;
             }
             if(use == INT_MAX) ans.push_back(-1);
             else ans.push_back(use);
