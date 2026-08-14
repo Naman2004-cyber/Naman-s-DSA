@@ -13,18 +13,14 @@ public:
         }
         else segTree[segIdx] = segTree[2*segIdx+2];
     }
-    int rmiq(int segIdx , int l , int r , int start , int end , vector<int> &segTree , vector<int> &heights){
-        if(l > end || r < start) return -1;
-        if(l >= start && r <= end) return segTree[segIdx];
+    int findFirstMax(int segIdx , int l , int r , int start , int end , int target , vector<int>& segTree , vector<int> &heights){
+        if (l > end || r < start) return -1;
+        if(heights[segTree[segIdx]] <= target) return -1;
+        if(l == r) return l;
         int mid = (l+r)/2;
-        int left = rmiq(2*segIdx+1 , l , mid , start , end , segTree , heights);
-        int right = rmiq(2*segIdx+2 , mid+1 , r , start , end , segTree , heights);
-        if(left == -1) return right;
-        if(right == -1) return left;
-        if(heights[left] >= heights[right]){
-            return left;
-        }
-        return right;
+        int left = findFirstMax(2*segIdx+1 , l , mid , start , end , target , segTree , heights);
+        if(left != -1) return left;
+        return findFirstMax(2*segIdx+2 , mid+1 , r , start , end , target , segTree , heights);
     }
     vector<int> leftmostBuildingQueries(vector<int>& heights, vector<vector<int>>& queries) {
         int n = heights.size();
@@ -42,20 +38,11 @@ public:
                 ans.push_back(max_idx);
                 continue;
             }
-            int low = max_idx+1;
-            int high = n-1;
-            int use = INT_MAX;
-            while(low <= high){
-                int mid = low + ((high-low)/2);
-                int val = rmiq(0 , 0 , n-1 , low , mid , segTree , heights);
-                if(heights[val] > max(heights[max_idx] , heights[min_idx])){
-                    use = val;
-                    high = mid-1;
-                }
-                else low = mid+1;
-            }
-            if(use == INT_MAX) ans.push_back(-1);
-            else ans.push_back(use);
+            int start = max_idx+1;
+            int end = n-1;
+            int target = max(heights[max_idx] , heights[min_idx]);
+            int use = findFirstMax(0 , 0 , n-1 , start , end , target , segTree , heights);
+            ans.push_back(use);
         }
         return ans;
     }
