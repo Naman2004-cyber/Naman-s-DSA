@@ -245,6 +245,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0773-sliding-puzzle](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0773-sliding-puzzle) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0801-minimum-swaps-to-make-sequences-increasing](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0801-minimum-swaps-to-make-sequences-increasing) |
+| [0818-race-car](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0818-race-car) |
 | [0828-count-unique-characters-of-all-substrings-of-a-given-string](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0828-count-unique-characters-of-all-substrings-of-a-given-string) |
 | [0877-stone-game](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0877-stone-game) |
 | [0935-knight-dialer](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0935-knight-dialer) |
@@ -770,4 +771,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0052-n-queens-ii](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0052-n-queens-ii) |
+## Heuristic Search
+|  |
+| ------- |
+| [0818-race-car](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0818-race-car) |
+## A* Search
+|  |
+| ------- |
+| [0818-race-car](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0818-race-car) |
 <!---LeetCode Topics End-->
