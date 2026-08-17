@@ -82,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3115-maximum-prime-difference](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3115-maximum-prime-difference) |
 | [3147-taking-maximum-energy-from-the-mystic-dungeon](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3147-taking-maximum-energy-from-the-mystic-dungeon) |
+| [3195-find-the-minimum-area-to-cover-all-ones-i](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3195-find-the-minimum-area-to-cover-all-ones-i) |
 | [3229-minimum-operations-to-make-array-equal-to-target](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3229-minimum-operations-to-make-array-equal-to-target) |
 | [3254-find-the-power-of-k-size-subarrays-i](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3254-find-the-power-of-k-size-subarrays-i) |
 | [3255-find-the-power-of-k-size-subarrays-ii](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3255-find-the-power-of-k-size-subarrays-ii) |
@@ -238,6 +239,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2679-sum-in-a-matrix](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2679-sum-in-a-matrix) |
 | [2684-maximum-number-of-moves-in-a-grid](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2684-maximum-number-of-moves-in-a-grid) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2812-find-the-safest-path-in-a-grid) |
+| [3195-find-the-minimum-area-to-cover-all-ones-i](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3195-find-the-minimum-area-to-cover-all-ones-i) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3603-minimum-cost-path-with-alternating-directions-ii](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3603-minimum-cost-path-with-alternating-directions-ii) |
 ## Dynamic Programming
