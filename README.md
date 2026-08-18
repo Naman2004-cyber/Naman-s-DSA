@@ -137,6 +137,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0934-shortest-bridge](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0934-shortest-bridge) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0947-most-stones-removed-with-same-row-or-column) |
+| [0968-binary-tree-cameras](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0968-binary-tree-cameras) |
 | [1026-maximum-difference-between-node-and-ancestor](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1026-maximum-difference-between-node-and-ancestor) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1261-find-elements-in-a-contaminated-binary-tree](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1261-find-elements-in-a-contaminated-binary-tree) |
@@ -262,6 +263,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0877-stone-game](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0877-stone-game) |
 | [0935-knight-dialer](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0935-knight-dialer) |
 | [0960-delete-columns-to-make-sorted-iii](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0960-delete-columns-to-make-sorted-iii) |
+| [0968-binary-tree-cameras](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0968-binary-tree-cameras) |
 | [0996-number-of-squareful-arrays](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0996-number-of-squareful-arrays) |
 | [1012-numbers-with-repeated-digits](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1012-numbers-with-repeated-digits) |
 | [1031-maximum-sum-of-two-non-overlapping-subarrays](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1031-maximum-sum-of-two-non-overlapping-subarrays) |
@@ -678,6 +680,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0623-add-one-row-to-tree](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0623-add-one-row-to-tree) |
 | [0814-binary-tree-pruning](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0814-binary-tree-pruning) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
+| [0968-binary-tree-cameras](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0968-binary-tree-cameras) |
 | [1026-maximum-difference-between-node-and-ancestor](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1026-maximum-difference-between-node-and-ancestor) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1261-find-elements-in-a-contaminated-binary-tree](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1261-find-elements-in-a-contaminated-binary-tree) |
@@ -698,6 +701,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0623-add-one-row-to-tree](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0623-add-one-row-to-tree) |
 | [0814-binary-tree-pruning](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0814-binary-tree-pruning) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
+| [0968-binary-tree-cameras](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0968-binary-tree-cameras) |
 | [1026-maximum-difference-between-node-and-ancestor](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1026-maximum-difference-between-node-and-ancestor) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1261-find-elements-in-a-contaminated-binary-tree](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1261-find-elements-in-a-contaminated-binary-tree) |
@@ -813,4 +817,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0797-all-paths-from-source-to-target](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0797-all-paths-from-source-to-target) |
+## DP on Trees
+|  |
+| ------- |
+| [0968-binary-tree-cameras](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0968-binary-tree-cameras) |
 <!---LeetCode Topics End-->
