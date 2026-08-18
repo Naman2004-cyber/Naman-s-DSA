@@ -1,7 +1,7 @@
 class Solution {
 public:
     int largestInteger(vector<int>& nums, int k) {
-        unordered_map<int , int> mpp;
+        vector<int> mpp(51 , 0);
         int maxi = -1;
         for(int i = 0 ; i<nums.size() ; i++){
             mpp[nums[i]]++;
