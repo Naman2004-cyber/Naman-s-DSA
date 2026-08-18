@@ -1,37 +1,26 @@
 class Solution {
 public:
     int largestInteger(vector<int>& nums, int k) {
-        int n = nums.size();
-        int first = 0;
-        int last = 0;
-        int maxi = 0;
         unordered_map<int , int> mpp;
+        int maxi = -1;
         for(int i = 0 ; i<nums.size() ; i++){
-            if(nums[i] == nums[0]) first++;
-            else if(nums[i] == nums[n-1]) last++;
-            maxi = max(maxi , nums[i]);
             mpp[nums[i]]++;
+            maxi = max(maxi , nums[i]);
         }
-        if(k == nums.size()){
-            return maxi;
-        }
-
-        if(k == 1){
-            int maxiLike = -1;
+        if(k == nums.size()) return maxi;
+        else if(k == 1){
+            int maxGet = -1;
             for(int i = 0 ; i<nums.size() ; i++){
-                if(nums[i] > maxiLike && mpp[nums[i]] == 1){
-                    maxiLike = nums[i];
-                }
+                if(nums[i] > maxGet && mpp[nums[i]] == 1) maxGet = nums[i];
             }
-            return maxiLike;
+            return maxGet;
         }
-
-        if(first == 1 && last == 1){
-            if(nums[n-1] >= nums[0]) return nums[n-1];
-            return nums[0];
+        else if(mpp[nums[0]] == 1 && mpp[nums[nums.size()-1]] == 1){
+            if(nums[0] > nums[nums.size()-1]) return nums[0];
+            return nums[nums.size()-1];
         }
-        if(first == 1) return nums[0];
-        if(last == 1) return nums[n-1];
+        else if(mpp[nums[0]] == 1) return nums[0];
+        else if(mpp[nums[nums.size()-1]] == 1) return nums[nums.size()-1];
         return -1;
     }
 };
