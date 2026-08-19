@@ -7,10 +7,7 @@ public:
         }
         int count = 0;
         for(auto &it : mpp){
-            // cout << it.first << " --> ";
-            int first = 1;
-            int second = 1;
-            int third = 1;
+            int first = 1 , second = 1 ,  third = 1;
             for(auto &a : it.second){
                 if(a == 2 || a == 3 || a == 4 || a == 5) first = 0;
                 if(a == 4 || a == 5 || a == 6 || a == 7) second = 0;
@@ -21,7 +18,6 @@ public:
                 else count++;
             }
             else if(second == 1 || third == 1) count++;
-            // cout << endl;
         }
         return count + ((n - mpp.size())*2);
     }
