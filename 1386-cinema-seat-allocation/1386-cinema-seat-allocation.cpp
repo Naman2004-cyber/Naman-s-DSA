@@ -1,24 +1,37 @@
 class Solution {
 public:
     int maxNumberOfFamilies(int n, vector<vector<int>>& reservedSeats) {
-        unordered_map<int , unordered_set<int>> mpp;
+        vector<int> check(11 , 0);
+        int count = 1 , ans = 0;
+        sort(reservedSeats.begin() , reservedSeats.end());
+        int curr = reservedSeats[0][0];
         for(int i = 0 ; i<reservedSeats.size() ; i++){
-            mpp[reservedSeats[i][0]].insert(reservedSeats[i][1]);
-        }
-        int count = 0;
-        for(auto &it : mpp){
-            int first = 1 , second = 1 ,  third = 1;
-            for(auto &a : it.second){
-                if(a == 2 || a == 3 || a == 4 || a == 5) first = 0;
-                if(a == 4 || a == 5 || a == 6 || a == 7) second = 0;
-                if(a == 6 || a == 7 || a == 8 || a == 9) third = 0;
+            if(reservedSeats[i][0] == curr) check[reservedSeats[i][1]] = 1;
+            else{
+                count++;
+                int first = 1 , second = 1 , third = 1;
+                if(check[2] == 1 || check[3] == 1 || check[4] == 1 || check[5] == 1) first = 0;
+                if(check[4] == 1 || check[5] == 1 || check[6] == 1 || check[7] == 1) second = 0;
+                if(check[6] == 1 || check[7] == 1 || check[8] == 1 || check[9] == 1) third = 0;
+                if(first == 1){
+                    if(third == 1) ans+=2;
+                    else ans++;
+                }
+                else if(second == 1 || third == 1) ans++;
+                curr = reservedSeats[i][0];
+                fill(check.begin() , check.end() , 0);
+                check[reservedSeats[i][1]] = 1;
             }
-            if(first == 1){
-                if(third == 1) count+=2;
-                else count++;
-            }
-            else if(second == 1 || third == 1) count++;
         }
-        return count + ((n - mpp.size())*2);
+        int first = 1 , second = 1 , third = 1;
+                if(check[2] == 1 || check[3] == 1 || check[4] == 1 || check[5] == 1) first = 0;
+                if(check[4] == 1 || check[5] == 1 || check[6] == 1 || check[7] == 1) second = 0;
+                if(check[6] == 1 || check[7] == 1 || check[8] == 1 || check[9] == 1) third = 0;
+                if(first == 1){
+                    if(third == 1) ans+=2;
+                    else ans++;
+                }
+                else if(second == 1 || third == 1) ans++;
+        return ans + ((n - count)*2);
     }
 };
