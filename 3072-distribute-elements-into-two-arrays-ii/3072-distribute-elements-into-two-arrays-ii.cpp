@@ -1,31 +1,13 @@
 class Solution {
 public:
-    void buildTree(int segIdx , int l , int r , int rank , vector<int>& segTree){
-        if(l == r){
-            segTree[segIdx]++;
-            return;
-        }
-        int mid = (l+r)/2;
-        if(rank <= mid){
-            buildTree(2*segIdx+1 , l , mid , rank , segTree);
-        }
-        else{
-            buildTree(2*segIdx+2 , mid+1 , r ,rank , segTree);
-        }
-        segTree[segIdx] = segTree[2*segIdx+1] + segTree[2*segIdx+2];
-    }
     void updateTree(int segIdx , int l , int r , int rank , vector<int> &segTree){
         if(l == r){
             segTree[segIdx]++;
             return;
         }
         int mid = (l+r)/2;
-        if(rank <= mid){
-            updateTree(2*segIdx+1 , l , mid , rank , segTree);
-        }
-        else{
-            updateTree(2*segIdx+2 , mid+1 , r , rank , segTree);
-        }
+        if(rank <= mid) updateTree(2*segIdx+1 , l , mid , rank , segTree);
+        else updateTree(2*segIdx+2 , mid+1 , r , rank , segTree);
         segTree[segIdx] = segTree[2*segIdx+1] + segTree[2*segIdx+2];
     }
     int freqQuery(int segIdx , int l , int r , int targetRank , vector<int>& segTree){
@@ -55,51 +37,40 @@ public:
             rank[i] = mpp[nums[i]];
             rankMpp[rank[i]] = nums[i];
         }
-        
         vector<int> segTree1(4*mpp.size());
         vector<int> arr1;
         arr1.push_back(rank[0]);
-        buildTree(0 , 1 , mpp.size() , rank[0] , segTree1);
+        updateTree(0 , 1 , mpp.size() , rank[0] , segTree1);
         vector<int> segTree2(4*mpp.size());
         vector<int> arr2;
         arr2.push_back(rank[1]);
-        buildTree(0 , 1 , mpp.size() , rank[1] , segTree2);
-
+        updateTree(0 , 1 , mpp.size() , rank[1] , segTree2);
         for(int i = 2 ; i<rank.size() ; i++){
-            int l = 1;
-            int r = mpp.size();
             int countArr1 = freqQuery(0 , 1 , mpp.size() , rank[i] , segTree1);
             int countArr2 = freqQuery(0 , 1 , mpp.size() , rank[i] , segTree2);
             if(countArr1 > countArr2){
                 arr1.push_back(rank[i]);
-                updateTree(0 , l , r , rank[i] , segTree1);
+                updateTree(0 , 1 , mpp.size() , rank[i] , segTree1);
             }
             else if(countArr1 < countArr2){
                 arr2.push_back(rank[i]);
-                updateTree(0 , l , r , rank[i] , segTree2);
+                updateTree(0 , 1 , mpp.size() , rank[i] , segTree2);
             }
             else if(arr1.size() < arr2.size()){
                 arr1.push_back(rank[i]);
-                updateTree(0 , l , r , rank[i] , segTree1);
+                updateTree(0 , 1 , mpp.size() , rank[i] , segTree1);
             }
             else if(arr1.size() > arr2.size()){
                 arr2.push_back(rank[i]);
-                updateTree(0 , l , r , rank[i] , segTree2);
+                updateTree(0 , 1 , mpp.size() , rank[i] , segTree2);
             }
             else{
                 arr1.push_back(rank[i]);
-                updateTree(0 , l , r , rank[i] , segTree1);
+                updateTree(0 , 1 , mpp.size() , rank[i] , segTree1);
             }
         }
-
-        for(int i = 0 ; i<arr2.size() ; i++){
-            arr1.push_back(arr2[i]);
-        }
-
-        for(int i = 0 ; i<arr1.size() ; i++){
-            arr1[i] = rankMpp[arr1[i]];
-        }
-
+        for(int i = 0 ; i<arr2.size() ; i++) arr1.push_back(arr2[i]);
+        for(int i = 0 ; i<arr1.size() ; i++) arr1[i] = rankMpp[arr1[i]];
         return arr1;
     }
 };
