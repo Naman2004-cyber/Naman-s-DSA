@@ -13,9 +13,9 @@ public:
     int freqQuery(int segIdx , int l , int r , int targetRank , vector<int>& segTree){
         if(targetRank >= r) return 0;
         if(targetRank < l) return segTree[segIdx];
-        if(l == r){
-            return segTree[segIdx];
-        }
+        // if(l == r){
+        //     return segTree[segIdx];
+        // }
         int mid = (l+r)/2;
         int left = freqQuery(2*segIdx+1 , l , mid , targetRank , segTree);
         int right  = freqQuery(2*segIdx+2 , mid+1 , r , targetRank , segTree);
