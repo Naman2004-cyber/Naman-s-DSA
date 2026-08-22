@@ -56,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1563-stone-game-v](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1563-stone-game-v) |
 | [1584-min-cost-to-connect-all-points](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1584-min-cost-to-connect-all-points) |
 | [1631-path-with-minimum-effort](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1631-path-with-minimum-effort) |
+| [1649-create-sorted-array-through-instructions](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1649-create-sorted-array-through-instructions) |
 | [1695-maximum-erasure-value](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1695-maximum-erasure-value) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
@@ -117,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1208-get-equal-substrings-within-budget](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1208-get-equal-substrings-within-budget) |
 | [1508-range-sum-of-sorted-subarray-sums](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1508-range-sum-of-sorted-subarray-sums) |
 | [1631-path-with-minimum-effort](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1631-path-with-minimum-effort) |
+| [1649-create-sorted-array-through-instructions](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1649-create-sorted-array-through-instructions) |
 | [2302-count-subarrays-with-score-less-than-k](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2302-count-subarrays-with-score-less-than-k) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [2940-find-building-where-alice-and-bob-can-meet](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2940-find-building-where-alice-and-bob-can-meet) |
@@ -463,6 +465,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0004-median-of-two-sorted-arrays](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0004-median-of-two-sorted-arrays) |
 | [0307-range-sum-query-mutable](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0307-range-sum-query-mutable) |
 | [0912-sort-an-array](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0912-sort-an-array) |
+| [1649-create-sorted-array-through-instructions](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1649-create-sorted-array-through-instructions) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3739-count-subarrays-with-majority-element-ii) |
 ## Segment Tree
@@ -470,6 +473,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0307-range-sum-query-mutable](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0307-range-sum-query-mutable) |
 | [1395-count-number-of-teams](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1395-count-number-of-teams) |
+| [1649-create-sorted-array-through-instructions](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1649-create-sorted-array-through-instructions) |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2213-longest-substring-of-one-repeating-character) |
 | [2569-handling-sum-queries-after-update](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2569-handling-sum-queries-after-update) |
 | [2940-find-building-where-alice-and-bob-can-meet](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2940-find-building-where-alice-and-bob-can-meet) |
@@ -481,6 +485,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0912-sort-an-array](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0912-sort-an-array) |
+| [1649-create-sorted-array-through-instructions](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1649-create-sorted-array-through-instructions) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3739-count-subarrays-with-majority-element-ii) |
 ## Counting
@@ -746,6 +751,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0307-range-sum-query-mutable](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0307-range-sum-query-mutable) |
 | [1395-count-number-of-teams](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1395-count-number-of-teams) |
+| [1649-create-sorted-array-through-instructions](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1649-create-sorted-array-through-instructions) |
 | [2940-find-building-where-alice-and-bob-can-meet](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2940-find-building-where-alice-and-bob-can-meet) |
 | [3072-distribute-elements-into-two-arrays-ii](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3072-distribute-elements-into-two-arrays-ii) |
 ## Design
@@ -815,6 +821,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
+| [1649-create-sorted-array-through-instructions](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1649-create-sorted-array-through-instructions) |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2213-longest-substring-of-one-repeating-character) |
 ## Dijkstra's Algorithm
 |  |
