@@ -15,8 +15,6 @@ public:
                 else rightSum+=(num[i]-'0');
             }
         }
-        cout << countLeft <<  " " << countRight << endl;
-        cout << leftSum << " " << rightSum << endl;
         if(countLeft == 0 && countRight == 0){
             if(leftSum != rightSum) return true;
             return false;
@@ -91,9 +89,7 @@ public:
                 }
             }
             turn = turn == 0 ? 1 : 0;
-            cout << leftSum << " " << rightSum << endl;
         }
-        // cout << leftSum << " " << rightSum << endl;
         if(leftSum == rightSum) return false;
         return true;
     }
