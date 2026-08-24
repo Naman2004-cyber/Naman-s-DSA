@@ -52,7 +52,7 @@ public:
                     }
                 }
                 else{
-                    if(countLeft >= countRight && countLeft > 0){
+                    if(countLeft > 0){
                         leftSum+=9;
                         countLeft--;
                     }
