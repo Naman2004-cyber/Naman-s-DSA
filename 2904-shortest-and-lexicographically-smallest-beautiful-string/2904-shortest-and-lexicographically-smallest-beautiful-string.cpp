@@ -12,7 +12,6 @@ public:
             while(count1 > k || (count1 == k && s[l] == '0')){
                  if(s[l] == '1') count1--;
                  l++;
-                cout << r-l+1 << endl;
             }
             if(count1 == k){
                 if(r-l+1 < mini){
@@ -33,10 +32,7 @@ public:
             r++;
         }
         if(start == -1 || end == -1) return "";
-        string ans = "";
-        for(int i = start ; i <= end ; i++){
-            ans+=s[i];
-        }
+        string ans = s.substr(start , end-start+1);
         return ans;
     }
 };
