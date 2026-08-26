@@ -19,8 +19,6 @@ public:
         }
     }
     int maxNumEdgesToRemove(int n, vector<vector<int>>& edges) {
-        vector<vector<int>> use = {{3,1,2}, {3,3,4}, {1,1,3},{2,2,4}};
-        if(n == 4 && use == edges) return 0;
         vector<int> parentA(n+1);
         vector<int> parentB(n+1);
         for(int i = 0 ; i<=n ; i++){
