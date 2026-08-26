@@ -7,15 +7,25 @@ public:
         if(parent[node] == node) return node;
         return parent[node] = findParent(parent[node] , parent);
     }
-    void doUnion(int u , int v , vector<int>& parent){
+    void doUnion(int u , int v , vector<int>& parent , vector<int>& rank){
         int parentU = findParent(u , parent);
         int parentV = findParent(v , parent);
         if(parentU == parentV) return;
-        if(parentU < parentV){
+        // if(parentU < parentV){
+        //     parent[parentV] = parentU;
+        // }
+        // else{
+        //     parent[parentU] = parentV;
+        // }
+        if(rank[parentU] > rank[parentV]){
             parent[parentV] = parentU;
         }
-        else{
+        else if(rank[parentU] < rank[parentV]){
             parent[parentU] = parentV;
+        }
+        else{
+            parent[parentV] = parentU;
+            rank[parentU]++;
         }
     }
     int maxNumEdgesToRemove(int n, vector<vector<int>>& edges) {
@@ -40,7 +50,7 @@ public:
                     count++;
                 }
                 else{
-                    doUnion(u , v , parentA);
+                    doUnion(u , v , parentA , rankA);
                 }
             }
             else if(type == 2){
@@ -50,7 +60,7 @@ public:
                     count++;
                 }
                 else{
-                    doUnion(u , v , parentB);
+                    doUnion(u , v , parentB , rankB);
                 }
             }
             else if(type == 3){
@@ -62,14 +72,14 @@ public:
                     count++;
                 }
                 else if((parentU_A != parentV_A) && (parentU_B != parentV_B)){
-                    doUnion(u , v , parentA);
-                    doUnion(u , v , parentB);
+                    doUnion(u , v , parentA , rankA);
+                    doUnion(u , v , parentB , rankB);
                 }
                 else if(parentU_A != parentV_A){
-                    doUnion(u , v , parentA);
+                    doUnion(u , v , parentA , rankA);
                 }
                 else if(parentU_B != parentV_B){
-                    doUnion(u , v , parentB);
+                    doUnion(u , v , parentB , rankB);
                 }
             }
         }
