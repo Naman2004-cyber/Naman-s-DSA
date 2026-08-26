@@ -21,6 +21,8 @@ public:
     int maxNumEdgesToRemove(int n, vector<vector<int>>& edges) {
         vector<int> parentA(n+1);
         vector<int> parentB(n+1);
+        vector<int> rankA(n+1 , 0);
+        vector<int> rankB(n+1 , 0);
         for(int i = 0 ; i<=n ; i++){
             parentA[i] = i;
             parentB[i] = i;
@@ -73,12 +75,6 @@ public:
         }
         int countParentA = parentA[1];
         int countParentB = parentB[1];
-        // for(auto &it : edges){
-        //     for(auto &a : it){
-        //         cout << a << " ";
-        //     }
-        //     cout << endl;
-        // }
         for(int i = 2 ; i<parentA.size() ; i++){
             if(findParent(parentA[i] , parentA) != countParentA || findParent(parentB[i] , parentB) != countParentB) return -1;
         }
