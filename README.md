@@ -387,6 +387,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3229-minimum-operations-to-make-array-equal-to-target](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3229-minimum-operations-to-make-array-equal-to-target) |
 | [3557-find-maximum-number-of-non-intersecting-substrings](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3557-find-maximum-number-of-non-intersecting-substrings) |
+| [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3720-lexicographically-smallest-permutation-greater-than-target) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -471,6 +472,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3532-path-existence-queries-in-a-graph-i) |
 | [3557-find-maximum-number-of-non-intersecting-substrings](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3557-find-maximum-number-of-non-intersecting-substrings) |
 | [3718-smallest-missing-multiple-of-k](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3718-smallest-missing-multiple-of-k) |
+| [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3720-lexicographically-smallest-permutation-greater-than-target) |
 | [3731-find-missing-elements](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3731-find-missing-elements) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3739-count-subarrays-with-majority-element-ii) |
@@ -517,6 +519,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3223-minimum-length-of-string-after-operations](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3223-minimum-length-of-string-after-operations) |
 | [3312-sorted-gcd-pair-queries](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3312-sorted-gcd-pair-queries) |
 | [3518-smallest-palindromic-rearrangement-ii](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3518-smallest-palindromic-rearrangement-ii) |
+| [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3720-lexicographically-smallest-permutation-greater-than-target) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3737-count-subarrays-with-majority-element-i) |
 ## Prefix Sum
 |  |
@@ -613,6 +616,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3517-smallest-palindromic-rearrangement-i) |
 | [3518-smallest-palindromic-rearrangement-ii](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3518-smallest-palindromic-rearrangement-ii) |
 | [3557-find-maximum-number-of-non-intersecting-substrings](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3557-find-maximum-number-of-non-intersecting-substrings) |
+| [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3720-lexicographically-smallest-permutation-greater-than-target) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
 | [3970-shortest-path-with-at-most-k-consecutive-identical-characters](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3970-shortest-path-with-at-most-k-consecutive-identical-characters) |
 ## Backtracking
@@ -679,6 +683,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2310-sum-of-numbers-with-units-digit-k](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2310-sum-of-numbers-with-units-digit-k) |
 | [2443-sum-of-number-and-its-reverse](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2443-sum-of-number-and-its-reverse) |
 | [3499-maximize-active-section-with-trade-i](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3499-maximize-active-section-with-trade-i) |
+| [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3720-lexicographically-smallest-permutation-greater-than-target) |
 ## Number Theory
 |  |
 | ------- |
