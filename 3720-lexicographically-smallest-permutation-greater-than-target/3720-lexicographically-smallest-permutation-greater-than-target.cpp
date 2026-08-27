@@ -24,7 +24,7 @@ public:
                 }
                 else{
                     string use = "";
-                    for(int j = 0 ; j<26 ; j++){
+                    for(int j = 25 ; j>=0 ; j--){
                         if(j == target[i]-'a'){
                             for(int k = 0 ; k<(freq[j]-1) ; k++){
                                 use+=(j+'a');
@@ -36,7 +36,6 @@ public:
                             }
                         }
                     }
-                    sort(use.begin() , use.end() , greater<char>());
                     string leftTarget = target.substr(i+1);
                     if(use > leftTarget){
                         ans+=target[i];
