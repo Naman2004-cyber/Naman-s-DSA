@@ -1,26 +1,45 @@
 class Solution {
 public:
     vector<int> lexicographicallySmallestArray(vector<int>& nums, int limit) {
-        vector<int> sorted = nums;
-        sort(sorted.begin() , sorted.end());
-        vector<int> parent = sorted;
-        parent[0] = sorted[0];
-        for(int i = 1 ; i<nums.size() ; i++){
-            if(sorted[i]-sorted[i-1] <= limit) parent[i] = parent[i-1];
+        int n = nums.size();
+
+        vector<pair<int, int>> arr;
+
+        for(int i = 0; i < n; i++) {
+            arr.push_back({nums[i], i});
         }
-        unordered_map<int , int> findParent;
-        unordered_map<int , vector<int>> components;
-        for(int i = 0 ; i<nums.size() ; i++){
-            findParent[sorted[i]] = parent[i];
-            components[parent[i]].push_back(sorted[i]);
+
+        sort(arr.begin(), arr.end());
+
+        int start = 0;
+
+        while(start < n) {
+            int end = start;
+
+            // Find the complete component
+            while(end + 1 < n &&
+                  arr[end + 1].first - arr[end].first <= limit) {
+                end++;
+            }
+
+            // Values are already sorted.
+            // Indices are collected separately.
+            vector<int> indices;
+
+            for(int i = start; i <= end; i++) {
+                indices.push_back(arr[i].second);
+            }
+
+            sort(indices.begin(), indices.end());
+
+            // Assign smallest values to smallest indices
+            for(int i = 0; i < indices.size(); i++) {
+                nums[indices[i]] = arr[start + i].first;
+            }
+
+            start = end + 1;
         }
-        unordered_map<int , int> ptr;
-        for(int i = 0 ; i<nums.size() ; i++){
-            int currComponent = findParent[nums[i]];
-            int x = components[currComponent][ptr[currComponent]];
-            nums[i] = x;
-            ptr[currComponent]++;
-        }
+
         return nums;
     }
 };
