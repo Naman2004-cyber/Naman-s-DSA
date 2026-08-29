@@ -1,9 +1,9 @@
 class Solution {
 public:
     long long dp[100001];
-    static bool cmp(const vector<int>& a , const vector<int>& b){
-        return a[0] < b[0];
-    }
+    // static bool cmp(const vector<int>& a , const vector<int>& b){
+    //     return a[0] < b[0];
+    // }
     long long doit(int idx , vector<vector<int>>& rides){
         if(idx == rides.size()) return 0;
         if(dp[idx] != -1) return dp[idx];
@@ -27,7 +27,7 @@ public:
         return dp[idx] = max(notPick , pick);
     }
     long long maxTaxiEarnings(int n, vector<vector<int>>& rides) {
-        sort(rides.begin() , rides.end() , cmp);
+        sort(rides.begin() , rides.end());
         memset(dp , -1 , sizeof(dp));
         return doit(0 , rides);
     }
