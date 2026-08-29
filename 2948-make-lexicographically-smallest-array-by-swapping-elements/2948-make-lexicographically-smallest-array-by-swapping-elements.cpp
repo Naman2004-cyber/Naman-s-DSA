@@ -19,11 +19,11 @@ public:
             mpp[parent[i]].insert(sorted[i]);
             parentFind[sorted[i]] = parent[i];
         }
-        for(auto &it : mpp){
-            cout << it.first << " --> ";
-            for(auto &a : it.second) cout << a << " ";
-            cout << endl;
-        }
+        // for(auto &it : mpp){
+        //     cout << it.first << " --> ";
+        //     for(auto &a : it.second) cout << a << " ";
+        //     cout << endl;
+        // }
         for(int i = 0 ; i<nums.size() ; i++){
             int component = parentFind[nums[i]];
             int x = *mpp[component].begin();
