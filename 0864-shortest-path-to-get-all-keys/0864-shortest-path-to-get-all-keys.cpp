@@ -27,30 +27,18 @@ public:
                 for(int j = 0 ; j<4 ; j++){
                     int newx = currx + r[j] , newy = curry + c[j];
                     if(newx < 0 || newy < 0 || newx >= m || newy >= n || grid[newx][newy] == '#') continue;
-                    if(grid[newx][newy] == '.'){
-                        if(visited[newx][newy][currMask]) continue;
-                        qt.push({newx , newy , currMask});
-                        visited[newx][newy][currMask] = true;
-                    }
-                    else if(grid[newx][newy] >= 'a' && grid[newx][newy] <= 'z'){
+                    int newMask = currMask;
+                    if(grid[newx][newy] >= 'a' && grid[newx][newy] <= 'z'){
                         int keyIndex = grid[newx][newy] - 'a';
-                        int newMask = (currMask | (1 << keyIndex));
-                        if(visited[newx][newy][newMask]) continue;
-                        qt.push({newx , newy , newMask});
-                        visited[newx][newy][newMask] = true;
+                        newMask|=(1 << keyIndex);
                     }
-                    else if(grid[newx][newy] >= 'A' && grid[newx][newy] <= 'Z'){
-                        int LockIndex = grid[newx][newy] - 'A';
-                        if((currMask & (1 << LockIndex)) == 0) continue;
-                        if(visited[newx][newy][currMask]) continue;
-                        qt.push({newx , newy , currMask});
-                        visited[newx][newy][currMask] = true;
+                    if(visited[newx][newy][newMask]) continue;
+                    if(grid[newx][newy] >= 'A' && grid[newx][newy] <= 'Z'){
+                        int lockIndex = grid[newx][newy] - 'A';
+                        if((currMask & (1 << lockIndex)) == 0) continue;
                     }
-                    else{
-                        if(visited[newx][newy][currMask]) continue;
-                        qt.push({newx , newy , currMask});
-                        visited[newx][newy][currMask] = true;
-                    }
+                    qt.push({newx , newy , newMask});
+                    visited[newx][newy][newMask] = true;
                 }
             }
             moves++;
