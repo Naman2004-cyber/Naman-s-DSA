@@ -2,14 +2,16 @@ class Solution {
 public:
     int r[4] = {0 , 1 , 0 , -1};
     int c[4] = {1 , 0 , -1 , 0};
-    int doit(int start , vector<vector<int>>& graph){
+    int doit(vector<vector<int>>& graph){
         int n = graph.size();
         int maskAllNodes = (1 << n) - 1;
-        int mask = (1 << start);
         queue<pair<int , int>> qt;
         vector<vector<bool>> visited(n , vector<bool>(1 << n , false));
-        visited[start][mask] = true;
-        qt.push({start , mask});
+        for(int i = 0 ; i<n ; i++){
+            int mask = (1 << i);
+            visited[i][mask] = true;
+            qt.push({i , mask});
+        }
         int moves = 0;
         while(!qt.empty()){
             int s = qt.size();
@@ -31,12 +33,6 @@ public:
         return -1;
     }
     int shortestPathLength(vector<vector<int>>& graph) {
-        int mini = INT_MAX;
-        for(int i = 0 ; i<graph.size() ; i++){
-            int result = doit(i , graph);
-            if(result != -1) mini = min(mini , result);
-        }
-        if(mini == INT_MAX) return -1;
-        return mini;
+        return doit(graph);
     }
 };
