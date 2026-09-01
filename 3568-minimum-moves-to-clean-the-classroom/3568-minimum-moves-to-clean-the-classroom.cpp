@@ -39,12 +39,15 @@ public:
                 auto [currx , curry , currEnergy , currMask] = qt.front();
                 qt.pop();
                 if(currMask == allLitter) return cost;
+                if(currEnergy == 0){
+                    a--;
+                    continue;
+                }
                 for(int i = 0 ; i<4 ; i++){
                     int newx = currx + r[i];
                     int newy = curry + c[i];
                     if(newx >= 0 && newx < m && newy >=0  && newy < n){
                         if(classroom[newx][newy] == 'X') continue;
-                            if(currEnergy == 0) continue;
                             int newEnergy = classroom[newx][newy] == 'R' ? energy : currEnergy-1;
                             int newMask = currMask;
                             if(classroom[newx][newy] == 'L'){
