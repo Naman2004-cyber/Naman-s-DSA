@@ -192,6 +192,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0787-cheapest-flights-within-k-stops](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0797-all-paths-from-source-to-target](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0797-all-paths-from-source-to-target) |
 | [0827-making-a-large-island](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0827-making-a-large-island) |
+| [0847-shortest-path-visiting-all-nodes](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0847-shortest-path-visiting-all-nodes) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0864-shortest-path-to-get-all-keys](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0864-shortest-path-to-get-all-keys) |
 | [0934-shortest-bridge](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0934-shortest-bridge) |
@@ -299,6 +300,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0801-minimum-swaps-to-make-sequences-increasing](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0801-minimum-swaps-to-make-sequences-increasing) |
 | [0818-race-car](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0818-race-car) |
 | [0828-count-unique-characters-of-all-substrings-of-a-given-string](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0828-count-unique-characters-of-all-substrings-of-a-given-string) |
+| [0847-shortest-path-visiting-all-nodes](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0847-shortest-path-visiting-all-nodes) |
 | [0877-stone-game](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0877-stone-game) |
 | [0935-knight-dialer](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0935-knight-dialer) |
 | [0960-delete-columns-to-make-sorted-iii](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0960-delete-columns-to-make-sorted-iii) |
@@ -351,6 +353,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0684-redundant-connection](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0684-redundant-connection) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0797-all-paths-from-source-to-target](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0797-all-paths-from-source-to-target) |
+| [0847-shortest-path-visiting-all-nodes](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0847-shortest-path-visiting-all-nodes) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [0990-satisfiability-of-equality-equations](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0990-satisfiability-of-equality-equations) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1319-number-of-operations-to-make-network-connected) |
@@ -752,6 +755,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0847-shortest-path-visiting-all-nodes](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0847-shortest-path-visiting-all-nodes) |
 | [0864-shortest-path-to-get-all-keys](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0864-shortest-path-to-get-all-keys) |
 | [0995-minimum-number-of-k-consecutive-bit-flips](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0995-minimum-number-of-k-consecutive-bit-flips) |
 | [0996-number-of-squareful-arrays](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0996-number-of-squareful-arrays) |
@@ -763,6 +767,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bitmask
 |  |
 | ------- |
+| [0847-shortest-path-visiting-all-nodes](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0847-shortest-path-visiting-all-nodes) |
 | [0996-number-of-squareful-arrays](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0996-number-of-squareful-arrays) |
 ## Tree
 |  |
