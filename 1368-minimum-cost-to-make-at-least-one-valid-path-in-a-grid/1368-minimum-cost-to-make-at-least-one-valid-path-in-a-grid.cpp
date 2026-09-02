@@ -19,17 +19,11 @@ public:
                 int newx = currx + r[i] , newy = curry + c[i];
                 if(newx < 0 || newy < 0 || newx >= m || newy >= n) continue;
                 // 0 is right , 1 is down , 2 is left and 3 is up
-                if((i == 0 && currDir == 1) || (i == 1 && currDir == 3) || (i == 2 && currDir == 2) || (i == 3 && currDir == 4)){
-                    if(currCost < minCost[newx][newy]){
-                        pq.push({currCost , newx , newy});
-                        minCost[newx][newy] = currCost;
-                    }
-                }
-                else{
-                    if(currCost+1 < minCost[newx][newy]){
-                        pq.push({currCost+1 , newx , newy});
-                        minCost[newx][newy] = currCost+ 1;
-                    }
+                int newCost = currCost;
+                if(!((i == 0 && currDir == 1) || (i == 1 && currDir == 3) || (i == 2 && currDir == 2) || (i == 3 && currDir == 4))) newCost++;
+                if(newCost < minCost[newx][newy]){
+                    pq.push({newCost, newx , newy});
+                    minCost[newx][newy] = newCost;
                 }
             }
         }
