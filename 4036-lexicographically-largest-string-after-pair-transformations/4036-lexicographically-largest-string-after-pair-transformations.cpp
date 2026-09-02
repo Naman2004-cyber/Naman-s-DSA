@@ -6,20 +6,10 @@ public:
             int num = nums[i];
             string ans = "";
             while(num > 0){
-                int index = 0;
-                int sum = 1;
-                while(sum <= num){
-                    sum*=2;
-                    index++;
-                }
-                num-=(sum/2);
-                if(index == 27){
-                    ans+="zz";
-                }
-                else{
-                    char ch = 'a' + index - 1;
-                    ans+=ch;
-                }
+                int index = 31 - __builtin_clz(num);
+                num-=(1 << index);
+                if(index == 26) ans+="zz";
+                else ans+=(char('a' + index));
             }
             finalAns.push_back(ans);
         }
