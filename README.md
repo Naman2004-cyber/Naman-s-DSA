@@ -120,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3731-find-missing-elements](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3731-find-missing-elements) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3739-count-subarrays-with-majority-element-ii) |
+| [3876-construct-uniform-parity-array-ii](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3876-construct-uniform-parity-array-ii) |
 | [3977-minimum-time-to-reach-target-with-limited-power](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3977-minimum-time-to-reach-target-with-limited-power) |
 ## Binary Search
 |  |
@@ -465,6 +466,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3700-number-of-zigzag-arrays-ii](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3700-number-of-zigzag-arrays-ii) |
 | [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
+| [3876-construct-uniform-parity-array-ii](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3876-construct-uniform-parity-array-ii) |
 ## Hash Table
 |  |
 | ------- |
