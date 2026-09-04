@@ -86,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2368-reachable-nodes-with-restrictions](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2368-reachable-nodes-with-restrictions) |
 | [2381-shifting-letters-ii](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2381-shifting-letters-ii) |
 | [2444-count-subarrays-with-fixed-bounds](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2444-count-subarrays-with-fixed-bounds) |
+| [2503-maximum-number-of-points-from-grid-queries](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2503-maximum-number-of-points-from-grid-queries) |
 | [2536-increment-submatrices-by-one](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2536-increment-submatrices-by-one) |
 | [2569-handling-sum-queries-after-update](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2569-handling-sum-queries-after-update) |
 | [2658-maximum-number-of-fish-in-a-grid](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2658-maximum-number-of-fish-in-a-grid) |
@@ -223,6 +224,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2368-reachable-nodes-with-restrictions](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2368-reachable-nodes-with-restrictions) |
 | [2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
+| [2503-maximum-number-of-points-from-grid-queries](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2503-maximum-number-of-points-from-grid-queries) |
 | [2658-maximum-number-of-fish-in-a-grid](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2658-maximum-number-of-fish-in-a-grid) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [2998-minimum-number-of-operations-to-make-x-and-y-equal](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2998-minimum-number-of-operations-to-make-x-and-y-equal) |
@@ -249,6 +251,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 | [2368-reachable-nodes-with-restrictions](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2368-reachable-nodes-with-restrictions) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
+| [2503-maximum-number-of-points-from-grid-queries](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2503-maximum-number-of-points-from-grid-queries) |
 | [2658-maximum-number-of-fish-in-a-grid](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2658-maximum-number-of-fish-in-a-grid) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2948-make-lexicographically-smallest-array-by-swapping-elements) |
@@ -267,6 +270,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1514-path-with-maximum-probability](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1514-path-with-maximum-probability) |
 | [1631-path-with-minimum-effort](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1631-path-with-minimum-effort) |
 | [2054-two-best-non-overlapping-events](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2054-two-best-non-overlapping-events) |
+| [2503-maximum-number-of-points-from-grid-queries](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2503-maximum-number-of-points-from-grid-queries) |
 | [2642-design-graph-with-shortest-path-calculator](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2642-design-graph-with-shortest-path-calculator) |
 | [2679-sum-in-a-matrix](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2679-sum-in-a-matrix) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2812-find-the-safest-path-in-a-grid) |
@@ -296,6 +300,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1631-path-with-minimum-effort](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1631-path-with-minimum-effort) |
 | [1970-last-day-where-you-can-still-cross](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1970-last-day-where-you-can-still-cross) |
 | [2352-equal-row-and-column-pairs](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2352-equal-row-and-column-pairs) |
+| [2503-maximum-number-of-points-from-grid-queries](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2503-maximum-number-of-points-from-grid-queries) |
 | [2536-increment-submatrices-by-one](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2536-increment-submatrices-by-one) |
 | [2658-maximum-number-of-fish-in-a-grid](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2658-maximum-number-of-fish-in-a-grid) |
 | [2679-sum-in-a-matrix](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2679-sum-in-a-matrix) |
@@ -619,6 +624,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2008-maximum-earnings-from-taxi](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2008-maximum-earnings-from-taxi) |
 | [2054-two-best-non-overlapping-events](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2054-two-best-non-overlapping-events) |
 | [2279-maximum-bags-with-full-capacity-of-rocks](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2279-maximum-bags-with-full-capacity-of-rocks) |
+| [2503-maximum-number-of-points-from-grid-queries](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2503-maximum-number-of-points-from-grid-queries) |
 | [2679-sum-in-a-matrix](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2679-sum-in-a-matrix) |
 | [2740-find-the-value-of-the-partition](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2740-find-the-value-of-the-partition) |
 | [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2948-make-lexicographically-smallest-array-by-swapping-elements) |
@@ -774,6 +780,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1537-get-the-maximum-score](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1537-get-the-maximum-score) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [2109-adding-spaces-to-a-string](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2109-adding-spaces-to-a-string) |
+| [2503-maximum-number-of-points-from-grid-queries](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2503-maximum-number-of-points-from-grid-queries) |
 | [3734-lexicographically-smallest-palindromic-permutation-greater-than-target](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3734-lexicographically-smallest-palindromic-permutation-greater-than-target) |
 ## Bit Manipulation
 |  |
