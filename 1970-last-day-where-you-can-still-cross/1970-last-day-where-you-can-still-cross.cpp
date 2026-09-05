@@ -1,40 +1,45 @@
 class Solution {
 public:
-    int r[4] = {0 , 1 , 0 , -1} , c[4] = {1 , 0 , -1 , 0};
-    bool doit(int day , vector<vector<int>> &matrix , int row , int col){
-        queue<pair<int,int>> qt;
-        vector<vector<int>> visited(row , vector<int>(col , 0));
-        for(int j = 0 ; j<col ; j++) {
-            if(matrix[0][j] > day) {
-                qt.push({0 , j});
-                visited[0][j] = 1;
-            }
-        }
-        while(!qt.empty()){
-            auto [currx , curry] = qt.front();
-            qt.pop();
-            if(currx == row-1) return true;
-            for(int i = 0 ; i<4 ; i++){
-                int newx = currx + r[i] , newy = curry + c[i];
-                if(newx <0 || newy<0 || newx >=row || newy >=col || matrix[newx][newy] <= day || visited[newx][newy] == 1) continue;
-                qt.push({newx , newy});
-                visited[newx][newy] = 1;
-            }
-        }
-        return false;
+    int findParent(int node , vector<int>& parent){
+        if(parent[node] == node) return node;
+        return parent[node] = findParent(parent[node] , parent);
     }
-    int latestDayToCross(int row, int col, vector<vector<int>>& cells) {
-        vector<vector<int>> matrix(row , vector<int>(col , 0));
-        for(int i = 0 ; i<cells.size() ; i++) matrix[cells[i][0]-1][cells[i][1]-1] = i+1;
-        int low = 1 , high = cells.size() , ans = -1;
-        while(low <= high){
-            int mid = low + ((high-low)/2);
-            if(doit(mid , matrix , row , col)){
-                ans = mid;
-                low = mid+1;
-            }
-            else high = mid-1;
+    void doUnion(int u , int v , vector<int>& parent , vector<int>& rank){
+        int parentu = findParent(u , parent);
+        int parentv = findParent(v , parent);
+        if(rank[parentu] > rank[parentv]){
+            parent[parentv] = parentu;
         }
-        return ans;
+        else if(rank[parentv] > rank[parentu]){
+            parent[parentu] = parentv;
+        }
+        else{
+            rank[parentu]++;
+            parent[parentv] = parentu;
+        }
+    }
+    int r[4] = {0 , 1 , 0 , -1} , c[4] = {1 , 0 , -1 , 0};
+    int latestDayToCross(int row, int col, vector<vector<int>>& cells) {
+        vector<int> parent(cells.size()+2);
+        vector<int> landOrNot(cells.size()+2 , 0);
+        vector<int> rank(cells.size()+2 , 0);
+        for(int i = 0 ; i<parent.size() ; i++) parent[i] = i;
+        for(int i = cells.size()-1 ; i>=0 ; i--){
+            int currx = cells[i][0] -1 , curry = cells[i][1] - 1;
+            int cell = currx*col + curry;
+            landOrNot[cell] = 1;
+            if(currx == 0) doUnion(cell , cells.size() , parent , rank);
+            if(currx == row-1) doUnion(cell , cells.size()+1 , parent , rank);
+            for(int j = 0 ; j<4 ; j++){
+                int newx = currx + r[j] , newy = curry + c[j];
+                if(newx <0 || newy < 0 || newx >=row || newy >= col) continue;
+                int newCell = newx*col + newy;
+                if(landOrNot[newCell] == 0) continue;
+                doUnion(cell , newCell , parent , rank);
+            }
+            if(findParent(cells.size(), parent) == findParent(cells.size()+1 , parent)) return i;
+        }
+        // for(int i = 0 ; i<parent.size() ; i++) cout << parent[i] << " ";
+        return 0;
     }
 };
