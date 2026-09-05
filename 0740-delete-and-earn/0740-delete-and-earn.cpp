@@ -1,28 +1,20 @@
 class Solution {
 public:
-    int doit(int index , vector<int> &use , unordered_map<int , int> &mpp , vector<int> &dp)
-    {
-        if(index >= use.size()) return 0;
-        if(dp[index] != -1) return dp[index];
-        int skip = doit(index+1 , use , mpp , dp);
+    int dp[10001];
+    int doit(int num , vector<int>& freq){
+        if(num >= freq.size()) return 0;
+        if(dp[num] != -1) return dp[num];
+        int skip = doit(num+1 , freq);
         int take = 0;
-        if(index+1 < use.size() && use[index+1] == use[index]+1){
-            take = use[index]*mpp[use[index]] + doit(index+2 , use , mpp , dp);
+        if(freq[num] > 0){
+            take = num * freq[num] + doit(num+2 , freq);
         }
-        else{
-            take = use[index]*mpp[use[index]] + doit(index+1 , use , mpp , dp);
-        }
-        return dp[index] = max(take , skip);
+        return dp[num] = max(take , skip);
     }
     int deleteAndEarn(vector<int>& nums) {
-        vector<int> use;
-        unordered_map<int , int> mpp;
-        for(int i = 0 ; i<nums.size() ; i++){
-            if(mpp.find(nums[i]) == mpp.end()) use.push_back(nums[i]);
-            mpp[nums[i]]++;
-        }
-        sort(use.begin() , use.end());
-        vector<int> dp(use.size() , -1);
-        return doit(0 , use , mpp , dp);
+        vector<int> freq(10001 , 0);
+        memset(dp , -1 , sizeof(dp));
+        for(int i = 0 ; i<nums.size() ; i++) freq[nums[i]]++;
+        return doit(1 , freq);
     }
 };
