@@ -1,18 +1,16 @@
 class Solution {
 public:
-    long long doit(int idx , vector<int>& nums , vector<int>& colors , vector<long long>& dp){
-        if(idx >= nums.size()) return 0;
-        if(dp[idx] != -1) return dp[idx];
-        long long skip = doit(idx+1, nums , colors , dp);
-        long long take = nums[idx];
-        if(idx+1 < nums.size() && colors[idx] != colors[idx+1]){
-            take+=doit(idx+1 , nums , colors , dp);
-        }
-        else take+=doit(idx+2 , nums , colors , dp);
-        return dp[idx] = max(take , skip);
-    }
     long long rob(vector<int>& nums, vector<int>& colors) {
-        vector<long long> dp(nums.size() , -1);
-        return doit(0 , nums , colors , dp);
+        vector<long long> dp(nums.size()+1 , -1);
+        dp[nums.size()] = 0;
+        dp[nums.size()-1] = nums[nums.size()-1];
+        for(int i = nums.size()-2 ; i>=0 ; i--){
+            long long skip = dp[i+1];
+            long long take = nums[i];
+            if(colors[i] != colors[i+1]) take+=dp[i+1];
+            else take+=dp[i+2];
+            dp[i] = max(take , skip);
+        }
+        return dp[0];
     }
 };
