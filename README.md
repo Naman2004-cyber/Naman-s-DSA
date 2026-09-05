@@ -76,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2029-stone-game-ix](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2029-stone-game-ix) |
 | [2054-two-best-non-overlapping-events](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2054-two-best-non-overlapping-events) |
 | [2109-adding-spaces-to-a-string](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2109-adding-spaces-to-a-string) |
+| [2140-solving-questions-with-brainpower](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2140-solving-questions-with-brainpower) |
 | [2155-all-divisions-with-the-highest-score-of-a-binary-array](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2155-all-divisions-with-the-highest-score-of-a-binary-array) |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2213-longest-substring-of-one-repeating-character) |
 | [2260-minimum-consecutive-cards-to-pick-up](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2260-minimum-consecutive-cards-to-pick-up) |
@@ -356,6 +357,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2008-maximum-earnings-from-taxi](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2008-maximum-earnings-from-taxi) |
 | [2054-two-best-non-overlapping-events](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2054-two-best-non-overlapping-events) |
 | [2063-vowels-of-all-substrings](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2063-vowels-of-all-substrings) |
+| [2140-solving-questions-with-brainpower](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2140-solving-questions-with-brainpower) |
 | [2262-total-appeal-of-a-string](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2262-total-appeal-of-a-string) |
 | [2310-sum-of-numbers-with-units-digit-k](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2310-sum-of-numbers-with-units-digit-k) |
 | [2376-count-special-integers](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2376-count-special-integers) |
