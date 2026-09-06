@@ -15,7 +15,6 @@ public:
                 spee.push_back(speed[i]);
             }
         }
-        for(int i = 0 ; i<pos.size() ; i++) cout << pos[i] << " ";
         stack<int> st;
         for(int i = 0 ; i<spee.size() ; i++){
             while(!st.empty() && (spee[st.top()] > spee[i])){
