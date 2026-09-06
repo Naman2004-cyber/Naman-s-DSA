@@ -15,13 +15,14 @@ public:
                 spee.push_back(speed[i]);
             }
         }
-        stack<int> st;
-        for(int i = 0 ; i<spee.size() ; i++){
-            while(!st.empty() && (spee[st.top()] > spee[i])){
-                st.pop();
+        int mini = spee[spee.size()-1];
+        int count = 1;
+        for(int i = spee.size()-2 ; i>=0 ; i--){
+            if(spee[i] <= mini){
+                count++;
+                mini = spee[i];
             }
-            st.push(i);
         }
-        return st.size();
+        return count;
     }
 };
