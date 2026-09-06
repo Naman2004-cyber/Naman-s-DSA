@@ -1,16 +1,19 @@
 class Solution {
 public:
-    int doit(int sIdx , int tIdx , string &s , string &t , vector<vector<int>>& dp){
-        if(tIdx >= t.size()) return 1;
-        if(sIdx >= s.size()) return 0;
-        if(dp[sIdx][tIdx] != -1) return dp[sIdx][tIdx];
-        int skip = doit(sIdx+1 , tIdx , s , t , dp);
-        int take = 0;
-        if(s[sIdx] == t[tIdx]) take+=doit(sIdx+1 , tIdx+1 , s, t , dp);
-        return dp[sIdx][tIdx] = take + skip;
-    }
+    long long mod = 1e9+7;
     int numDistinct(string s, string t) {
-        vector<vector<int>> dp(s.size() , vector<int>(t.size() , -1));
-        return doit(0 , 0 , s , t , dp);
+        vector<vector<long long>> dp(s.size()+1 , vector<long long>(t.size()+1 , 0));
+        for(int i = 0 ; i<=s.size() ; i++) {
+            dp[i][t.size()] = 1;
+        } 
+        int m = s.size() , n = t.size();
+        for(int i = m-1 ; i>=0 ; i--){
+            for(int j =n-1 ; j>=0; j--){
+                long long skip = dp[i+1][j] , take = 0;
+                if(s[i] == t[j]) take+=dp[i+1][j+1];
+                dp[i][j] = (take + skip)%mod;
+            }
+        }
+        return dp[0][0];
     }
 };
