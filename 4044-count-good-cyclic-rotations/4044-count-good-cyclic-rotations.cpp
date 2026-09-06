@@ -8,10 +8,7 @@ public:
             total+=nums[i];
         }
         long long secondHalf = total - firstHalf;
-        // cout << firstHalf << " " << secondHalf;
-        int exc = 0;
-        int inc = half;
-        int count = 0;
+        int exc = 0 , inc = half , count = 0;
         while(exc < nums.size()){
             firstHalf-=nums[exc];
             secondHalf+=nums[exc];
