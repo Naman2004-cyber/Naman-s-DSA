@@ -8,7 +8,6 @@ public:
             mpp[power[i]]++;
         }
         sort(use.begin() , use.end());
-        vector<long long> dp(use.size()+2 , -1);
         long long nnn = 0;
         long long nn = 0;
         long long n = 1LL * use[use.size()-1] * mpp[use[use.size()-1]];
