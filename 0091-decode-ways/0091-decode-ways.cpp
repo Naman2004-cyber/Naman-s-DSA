@@ -1,19 +1,25 @@
 class Solution {
 public:
-    int doit(int idx , string &s , vector<int> &dp){
-        if(s[idx] == '0') return 0;
-        if(idx >= s.size()) return 1;
-        if(dp[idx] != -1) return dp[idx];
-        int takeCurr = 0 , takeNext = 0;
-        takeCurr+=doit(idx+1 , s , dp);
-        if(idx+1 < s.size()){
-            int first = s[idx] -'0' , second = s[idx+1] - '0';
-            if((first == 1) || (first==2&&second <= 6)) takeNext+=doit(idx+2,s , dp);
-        }
-        return dp[idx] = takeCurr + takeNext;
-    }
     int numDecodings(string s) {
-        vector<int> dp(s.size() , -1);
-        return doit(0 , s , dp);
+        int nn = 1;
+        int n = s[s.size()-1] == '0' ? 0 : 1;
+        for(int i = s.size()-2 ; i>=0 ; i--){
+            if(s[i] == '0'){
+                nn = n;
+                n = 0;
+                continue;
+            }
+            int takeCurr = 0;
+            takeCurr+=n;
+            int takeNext = 0;
+            if(i+1 < s.size()){
+                int first = s[i] -'0' , second = s[i+1] - '0';
+                if((first == 1) || (first==2 && second <= 6)) takeNext+=nn;
+            }
+            int curr = takeCurr + takeNext;
+            nn = n;
+            n = curr;
+        }
+        return n;
     }
 };
