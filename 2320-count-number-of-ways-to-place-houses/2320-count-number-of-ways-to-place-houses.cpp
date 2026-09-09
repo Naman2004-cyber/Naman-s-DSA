@@ -4,8 +4,7 @@ public:
     int countHousePlacements(int n) {
         int NN = 0 , N = 1;
         for(int i = n-2 ; i>=0 ; i--){
-            int skip = N;
-            int take = 1 + NN;
+            int skip = N , take = 1 + NN;
             int curr = (take + skip)%mod;
             NN = N;
             N = curr;
