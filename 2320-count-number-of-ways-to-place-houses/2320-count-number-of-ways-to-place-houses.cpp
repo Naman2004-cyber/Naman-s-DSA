@@ -1,16 +1,16 @@
 class Solution {
 public:
     int mod = 1e9+7;
-    int doit(int idx , int n , vector<int>& dp){
-        if(idx >= n) return 0;
-        if(dp[idx] != -1) return dp[idx];
-        int skip = doit(idx+1 , n , dp);
-        int take = 1 + doit(idx+2 , n , dp);
-        return dp[idx] = (skip + take)%mod;
-    }
     int countHousePlacements(int n) {
-        vector<int> dp(n , -1);
-        int ans = 1 + doit(0 , n , dp);
+        vector<int> dp(n+1 , -1);
+        dp[n] = 0;
+        dp[n-1] = 1;
+        for(int i = n-2 ; i>=0 ; i--){
+            int skip = dp[i+1];
+            int take = 1 + dp[i+2];
+            dp[i] = (take + skip)%mod;
+        }
+        int ans = 1 + dp[0];
         int finalAns = (1LL * ans * ans)%mod;
         return finalAns;
     }
