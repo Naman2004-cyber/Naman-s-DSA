@@ -16,12 +16,10 @@ public:
         if(node == NULL) return {0 , 0};
         pair<int , int> left = doit(node->left);
         pair<int , int> right = doit(node->right);
-        int n = 1;
-        n+=left.second;
-        n+=right.second;
-        int avg = (left.first + right.first + node->val)/n;
-        if(avg == node->val) count++;
-        return {left.first + right.first + node->val , n};
+        int n = 1 + left.second + right.second;
+        int sum = left.first + right.first + node->val;
+        if((sum/n) == node->val) count++;
+        return {sum , n};
     }
     int averageOfSubtree(TreeNode* root) {
         doit(root);
