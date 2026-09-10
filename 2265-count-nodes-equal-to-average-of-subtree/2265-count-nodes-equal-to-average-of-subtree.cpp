@@ -14,10 +14,8 @@ public:
     int count = 0;
     pair<int , int> doit(TreeNode* node){
         if(node == NULL) return {0 , 0};
-        pair<int , int> left = doit(node->left);
-        pair<int , int> right = doit(node->right);
-        int n = 1 + left.second + right.second;
-        int sum = left.first + right.first + node->val;
+        pair<int , int> left = doit(node->left) , right = doit(node->right);
+        int n = 1 + left.second + right.second , sum = left.first + right.first + node->val;
         if((sum/n) == node->val) count++;
         return {sum , n};
     }
