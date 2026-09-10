@@ -5,14 +5,14 @@ public:
         int l = 0 , r = 1 , prevTurn = -1 , maxi = 1;
         while(r < arr.size()){
             int turn = arr[r-1] > arr[r] ? 1 : 0;
-            if(turn == prevTurn){
-                l = r-1;
+            if(arr[r-1] == arr[r]){
+                l = r;
+                r++;
                 prevTurn = -1;
                 continue;
             }
-            else if(arr[r-1] == arr[r]){
-                l = r;
-                r++;
+            else if(turn == prevTurn){
+                l = r-1;
                 prevTurn = -1;
                 continue;
             }
