@@ -178,6 +178,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0968-binary-tree-cameras](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0968-binary-tree-cameras) |
 | [1026-maximum-difference-between-node-and-ancestor](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1026-maximum-difference-between-node-and-ancestor) |
 | [1034-coloring-a-border](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1034-coloring-a-border) |
+| [1080-insufficient-nodes-in-root-to-leaf-paths](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1080-insufficient-nodes-in-root-to-leaf-paths) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1202-smallest-string-with-swaps](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1202-smallest-string-with-swaps) |
 | [1254-number-of-closed-islands](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1254-number-of-closed-islands) |
@@ -837,6 +838,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0968-binary-tree-cameras](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0968-binary-tree-cameras) |
 | [1026-maximum-difference-between-node-and-ancestor](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1026-maximum-difference-between-node-and-ancestor) |
+| [1080-insufficient-nodes-in-root-to-leaf-paths](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1080-insufficient-nodes-in-root-to-leaf-paths) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1261-find-elements-in-a-contaminated-binary-tree](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1261-find-elements-in-a-contaminated-binary-tree) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1373-maximum-sum-bst-in-binary-tree) |
@@ -858,6 +860,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0968-binary-tree-cameras](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0968-binary-tree-cameras) |
 | [1026-maximum-difference-between-node-and-ancestor](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1026-maximum-difference-between-node-and-ancestor) |
+| [1080-insufficient-nodes-in-root-to-leaf-paths](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1080-insufficient-nodes-in-root-to-leaf-paths) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1261-find-elements-in-a-contaminated-binary-tree](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1261-find-elements-in-a-contaminated-binary-tree) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1373-maximum-sum-bst-in-binary-tree) |
