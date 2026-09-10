@@ -11,7 +11,6 @@
  */
 class Solution {
 public:
-    int INF = 1e9;
     pair<int , int> doit(TreeNode* node , int limit , int sum){
         if(node == NULL) return {0 , 0};
         pair<int , int> left = doit(node->left , limit , sum + node->val);
