@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0304-range-sum-query-2d-immutable](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0304-range-sum-query-2d-immutable) |
 | [0307-range-sum-query-mutable](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0307-range-sum-query-mutable) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0315-count-of-smaller-numbers-after-self) |
+| [0322-coin-change](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0322-coin-change) |
 | [0403-frog-jump](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0403-frog-jump) |
 | [0417-pacific-atlantic-water-flow](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0417-pacific-atlantic-water-flow) |
 | [0486-predict-the-winner](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0486-predict-the-winner) |
@@ -203,6 +204,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
+| [0322-coin-change](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0322-coin-change) |
 | [0417-pacific-atlantic-water-flow](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0417-pacific-atlantic-water-flow) |
 | [0429-n-ary-tree-level-order-traversal](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0429-n-ary-tree-level-order-traversal) |
 | [0623-add-one-row-to-tree](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0623-add-one-row-to-tree) |
@@ -329,6 +331,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0124-binary-tree-maximum-path-sum](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0139-word-break](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0139-word-break) |
 | [0300-longest-increasing-subsequence](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0300-longest-increasing-subsequence) |
+| [0322-coin-change](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0322-coin-change) |
 | [0403-frog-jump](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0403-frog-jump) |
 | [0486-predict-the-winner](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0486-predict-the-winner) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
@@ -1019,4 +1022,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0139-word-break](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0139-word-break) |
+## Knapsack Problem
+|  |
+| ------- |
+| [0322-coin-change](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0322-coin-change) |
+## Complete Knapsack
+|  |
+| ------- |
+| [0322-coin-change](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0322-coin-change) |
 <!---LeetCode Topics End-->
