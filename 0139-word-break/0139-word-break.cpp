@@ -3,7 +3,7 @@ public:
     int dp[300][300];
     int doit(int idx , int start , unordered_map<string , int> &mpp , string &s){
         if(idx == s.size()){
-            string strNew = s.substr(start , idx-start+1);
+            string strNew = s.substr(start , idx-start);
             if(mpp.find(strNew) != mpp.end()) return 1;
             return 0;
         }
