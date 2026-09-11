@@ -5,13 +5,9 @@ public:
         for(int i = 0 ; i<answers.size() ; i++) mpp[answers[i]]++;
         int ans = 0;
         for(auto &it : mpp){
-            if(it.first >= it.second){
-                ans+=(it.first+1);
-            }
-            else{
-                ans+=((it.second/(it.first+1))*(it.first+1));
-                if(it.second%(it.first+1) != 0) ans+=(it.first+1);
-            }
+            int type = it.first+1 , num = it.second;
+            ans+=((num/type) * type);
+            if(num%type != 0) ans+=type;
         }
         return ans;
     }
