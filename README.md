@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0752-open-the-lock](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0752-open-the-lock) |
 | [0773-sliding-puzzle](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0773-sliding-puzzle) |
 | [0778-swim-in-rising-water](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0778-swim-in-rising-water) |
+| [0781-rabbits-in-forest](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0781-rabbits-in-forest) |
 | [0801-minimum-swaps-to-make-sequences-increasing](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0801-minimum-swaps-to-make-sequences-increasing) |
 | [0817-linked-list-components](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0817-linked-list-components) |
 | [0827-making-a-large-island](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0827-making-a-large-island) |
@@ -447,6 +448,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0659-split-array-into-consecutive-subsequences](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0659-split-array-into-consecutive-subsequences) |
 | [0763-partition-labels](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0763-partition-labels) |
+| [0781-rabbits-in-forest](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0781-rabbits-in-forest) |
 | [0846-hand-of-straights](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0846-hand-of-straights) |
 | [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1296-divide-array-in-sets-of-k-consecutive-numbers) |
 | [1386-cinema-seat-allocation](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1386-cinema-seat-allocation) |
@@ -478,6 +480,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0486-predict-the-winner](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0486-predict-the-winner) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0628-maximum-product-of-three-numbers) |
 | [0668-kth-smallest-number-in-multiplication-table](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0668-kth-smallest-number-in-multiplication-table) |
+| [0781-rabbits-in-forest](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0781-rabbits-in-forest) |
 | [0877-stone-game](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0877-stone-game) |
 | [0996-number-of-squareful-arrays](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0996-number-of-squareful-arrays) |
 | [1012-numbers-with-repeated-digits](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1012-numbers-with-repeated-digits) |
@@ -519,6 +522,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0740-delete-and-earn](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0740-delete-and-earn) |
 | [0752-open-the-lock](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0752-open-the-lock) |
 | [0763-partition-labels](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0763-partition-labels) |
+| [0781-rabbits-in-forest](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0781-rabbits-in-forest) |
 | [0817-linked-list-components](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0817-linked-list-components) |
 | [0828-count-unique-characters-of-all-substrings-of-a-given-string](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0828-count-unique-characters-of-all-substrings-of-a-given-string) |
 | [0846-hand-of-straights](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0846-hand-of-straights) |
