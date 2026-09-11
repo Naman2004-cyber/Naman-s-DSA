@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0004-median-of-two-sorted-arrays](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0004-median-of-two-sorted-arrays) |
 | [0047-permutations-ii](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0047-permutations-ii) |
 | [0064-minimum-path-sum](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0064-minimum-path-sum) |
+| [0139-word-break](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0139-word-break) |
 | [0204-count-primes](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0204-count-primes) |
 | [0300-longest-increasing-subsequence](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0300-longest-increasing-subsequence) |
 | [0304-range-sum-query-2d-immutable](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0304-range-sum-query-2d-immutable) |
@@ -325,6 +326,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0091-decode-ways](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0091-decode-ways) |
 | [0115-distinct-subsequences](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0115-distinct-subsequences) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0139-word-break](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0139-word-break) |
 | [0300-longest-increasing-subsequence](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0300-longest-increasing-subsequence) |
 | [0403-frog-jump](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0403-frog-jump) |
 | [0486-predict-the-winner](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0486-predict-the-winner) |
@@ -511,6 +513,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0139-word-break](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0139-word-break) |
 | [0508-most-frequent-subtree-sum](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0508-most-frequent-subtree-sum) |
 | [0659-split-array-into-consecutive-subsequences](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0659-split-array-into-consecutive-subsequences) |
 | [0740-delete-and-earn](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0740-delete-and-earn) |
@@ -676,6 +679,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0091-decode-ways](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0091-decode-ways) |
 | [0115-distinct-subsequences](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0115-distinct-subsequences) |
+| [0139-word-break](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0139-word-break) |
 | [0606-construct-string-from-binary-tree](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0606-construct-string-from-binary-tree) |
 | [0752-open-the-lock](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0752-open-the-lock) |
 | [0763-partition-labels](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0763-partition-labels) |
@@ -730,6 +734,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Memoization
 |  |
 | ------- |
+| [0139-word-break](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0139-word-break) |
 | [0773-sliding-puzzle](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0773-sliding-puzzle) |
 | [1575-count-all-possible-routes](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1575-count-all-possible-routes) |
 | [2998-minimum-number-of-operations-to-make-x-and-y-equal](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2998-minimum-number-of-operations-to-make-x-and-y-equal) |
@@ -959,6 +964,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Brute-Force Search
 |  |
 | ------- |
+| [0139-word-break](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0139-word-break) |
 | [0995-minimum-number-of-k-consecutive-bit-flips](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0995-minimum-number-of-k-consecutive-bit-flips) |
 ## Sqrt Decomposition
 |  |
@@ -1005,4 +1011,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
+## Trie
+|  |
+| ------- |
+| [0139-word-break](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/0139-word-break) |
 <!---LeetCode Topics End-->
