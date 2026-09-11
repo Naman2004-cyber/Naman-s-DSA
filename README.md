@@ -90,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2279-maximum-bags-with-full-capacity-of-rocks](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2279-maximum-bags-with-full-capacity-of-rocks) |
 | [2284-sender-with-largest-word-count](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2284-sender-with-largest-word-count) |
 | [2302-count-subarrays-with-score-less-than-k](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2302-count-subarrays-with-score-less-than-k) |
+| [2348-number-of-zero-filled-subarrays](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2348-number-of-zero-filled-subarrays) |
 | [2352-equal-row-and-column-pairs](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2352-equal-row-and-column-pairs) |
 | [2368-reachable-nodes-with-restrictions](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2368-reachable-nodes-with-restrictions) |
 | [2381-shifting-letters-ii](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2381-shifting-letters-ii) |
@@ -501,6 +502,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2029-stone-game-ix](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2029-stone-game-ix) |
 | [2063-vowels-of-all-substrings](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2063-vowels-of-all-substrings) |
 | [2310-sum-of-numbers-with-units-digit-k](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2310-sum-of-numbers-with-units-digit-k) |
+| [2348-number-of-zero-filled-subarrays](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2348-number-of-zero-filled-subarrays) |
 | [2376-count-special-integers](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2376-count-special-integers) |
 | [2443-sum-of-number-and-its-reverse](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2443-sum-of-number-and-its-reverse) |
 | [2719-count-of-integers](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2719-count-of-integers) |
