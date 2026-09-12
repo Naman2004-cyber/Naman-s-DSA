@@ -103,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2684-maximum-number-of-moves-in-a-grid](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2684-maximum-number-of-moves-in-a-grid) |
 | [2740-find-the-value-of-the-partition](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2740-find-the-value-of-the-partition) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2812-find-the-safest-path-in-a-grid) |
+| [2830-maximize-the-profit-as-the-salesman](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2830-maximize-the-profit-as-the-salesman) |
 | [2940-find-building-where-alice-and-bob-can-meet](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2940-find-building-where-alice-and-bob-can-meet) |
 | [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2948-make-lexicographically-smallest-array-by-swapping-elements) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
@@ -157,6 +158,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2054-two-best-non-overlapping-events](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2054-two-best-non-overlapping-events) |
 | [2302-count-subarrays-with-score-less-than-k](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2302-count-subarrays-with-score-less-than-k) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2812-find-the-safest-path-in-a-grid) |
+| [2830-maximize-the-profit-as-the-salesman](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2830-maximize-the-profit-as-the-salesman) |
 | [2940-find-building-where-alice-and-bob-can-meet](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2940-find-building-where-alice-and-bob-can-meet) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3186-maximum-total-damage-with-spell-casting](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3186-maximum-total-damage-with-spell-casting) |
@@ -387,6 +389,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2719-count-of-integers](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2719-count-of-integers) |
 | [2801-count-stepping-numbers-in-range](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2801-count-stepping-numbers-in-range) |
 | [2827-number-of-beautiful-integers-in-the-range](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2827-number-of-beautiful-integers-in-the-range) |
+| [2830-maximize-the-profit-as-the-salesman](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2830-maximize-the-profit-as-the-salesman) |
 | [2998-minimum-number-of-operations-to-make-x-and-y-equal](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2998-minimum-number-of-operations-to-make-x-and-y-equal) |
 | [3147-taking-maximum-energy-from-the-mystic-dungeon](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3147-taking-maximum-energy-from-the-mystic-dungeon) |
 | [3186-maximum-total-damage-with-spell-casting](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3186-maximum-total-damage-with-spell-casting) |
@@ -559,6 +562,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2284-sender-with-largest-word-count](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2284-sender-with-largest-word-count) |
 | [2352-equal-row-and-column-pairs](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2352-equal-row-and-column-pairs) |
 | [2368-reachable-nodes-with-restrictions](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2368-reachable-nodes-with-restrictions) |
+| [2830-maximize-the-profit-as-the-salesman](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2830-maximize-the-profit-as-the-salesman) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
@@ -670,6 +674,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2503-maximum-number-of-points-from-grid-queries](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2503-maximum-number-of-points-from-grid-queries) |
 | [2679-sum-in-a-matrix](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2679-sum-in-a-matrix) |
 | [2740-find-the-value-of-the-partition](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2740-find-the-value-of-the-partition) |
+| [2830-maximize-the-profit-as-the-salesman](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2830-maximize-the-profit-as-the-salesman) |
 | [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2948-make-lexicographically-smallest-array-by-swapping-elements) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3011-find-if-array-can-be-sorted](https://github.com/Naman2004-cyber/Naman-s-DSA/tree/master/3011-find-if-array-can-be-sorted) |
